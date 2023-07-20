@@ -19,5 +19,7 @@ menu:
     url: /contact
   - title: rss地图
     url: /feed.xml
+  - url: /123
+    title: "123"
 email: jaygny@qq.com
 disqus_username: disqus_username
