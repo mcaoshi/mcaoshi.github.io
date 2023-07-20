@@ -1,4 +1,4 @@
-{% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+{% assign months = "1 月,2 月,3 月,4 月,5 月,6 月,7 月,8 月,9 月,10 月,11 月,12 月" | split: "," %}
 {% assign month_number = include.date | date: "%-m" | minus: 1 %}
 
-{{ months[month_number] }} {{ include.date | date: "%-d" }}, {{ include.date | date: "%Y" }}
+{{ include.date | date: "%Y" }} 年 {{ months[month_number] }} {{ include.date | date: "%-d" }} 日
