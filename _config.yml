@@ -1,44 +1,25 @@
 # Site Settings
-name: 对酒当歌
-title: 对酒当歌云盘资源分享博客
-description: 用于分享一些储存在网络云盘里的资源.
-timezone: GMT+8
-
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by
+  Thiago Rossener.
 tags:
-  - 阿里云盘资源
-  - 资源分享
-  - 影视资源分享
-  - 电影分享
-  - 电视剧分享
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
 show_hero: true
 menu:
-- title: 主页
-  url: "/"
-- title: 国产剧
-  url: "/category/国产剧/"
-- title: 欧美剧
-  url: "/category/欧美剧/"
-- title: 日韩剧
-  url: "/category/日韩剧/"
-- title: 电影合集
-  url: "/category/电影合集/"
-- title: 动画电影
-  url: "/category/动画电影/"
-- title: 动画剧集
-  url: "/category/动画剧集/"
-- title: 儿童动画
-  url: "/category/儿童动画/"
-- title: 纪录片
-  url: "/category/纪录片/"
-- title: 音乐
-  url: "/category/音乐/"
-- title: 关于
-  url: "/about"
-- title: 联系我
-  url: "/contact"
-- title: RSS 地图
-  url: "/feed.xml"
-email: jaygny@qq.com
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: youremail@test.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
