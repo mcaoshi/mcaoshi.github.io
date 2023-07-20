@@ -48,7 +48,7 @@ formspree_form_id: formspree_form_id
 
 # 社交媒体设置
 # 如果不需要，请将其删除
-  github_username: aiyobudui 
+github_username: aiyobudui 
 # facebook_username: facebook_username
 # twitter_username: twitter_username
 # instagram_username: instagram_username
@@ -64,7 +64,7 @@ two_columns_layout: true
 
 # 高级设置
 # 设置站点的子路径，例如 /blog
-baseurl: 
+baseurl: "" 
 url: https://hao.netlify.app/
 google_analytics: UA-XXXXXXXX-X
 language: zh-cn
