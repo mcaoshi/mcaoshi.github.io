@@ -1,19 +1,23 @@
 ---
 layout: page
 menu: false
-date: '2020-02-27 01:53:59'
-title: About
-description: Some description.
+date: 2020-02-27 01:53:59
+title: 关于
 permalink: /about/
+description: 一些描述.
 ---
-
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
-# About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# 关于﻿ 
+
+
+
+1986年5月9日， 华夏日报报道：“京北昌平，石破天惊。 突降奇婴，必成大器。 ”“昨日凌晨三点， 华夏北部郊区昌平上空突放奇光异彩，风云突变。 煞是美丽。 突然一声巨响，之后传来不知谁家西游记中孙悟空一句招牌名言：俺老孙来也… 跟着一声嘶力竭的哭声，悟空的影子吓得掉到婴儿身下，从此跟随此婴。 这情这景，让大家从睡梦惊醒，小孩都不敢害怕了…”
+
+这记者有点悬呼，不就俺诚永来报道… 这么夸张给偶庆生，还跟踪报道二十载。 我很低调，不得不把影子有的看家本领36变拿出来，躲着狗仔队和追星族，好不狼狈… 书归正传，由于有悟空的影子跟随我，我从小就上树爬墙无所不精，桃李仙丹无所不盯。 由于活泼好动，在家乡小有名气，大家抬举错爱，猴心诚就是偶的广告。 童年时代没有超级少年栏目活动，要不我非被他们请去，不表演，光走上台就能婵连几届冠军。 幸好没有，要不俺这36变迟早被他们中国科学院发现，再把俺解剖研究了。 想想这个，鸡皮疙瘩掉地上一大片，捡起快遛。 其实俺学习一般，同学总让着我，我的桃子李子一送出，大家考试全没来，就我一个人考，还总满分，忘了说，出题老师也没来，我就满分了。
+
+中学迷上了篮球，我的影子总帮我拿MVP，夺得了男生的羡慕，女生的青睐。 一路无忧心诚灵，转眼快乐已然停。 高中里，我被很多女生信任，姐妹纷纷出现在我生活中，我帮她们排忧解难，当然有我的狗头军师～猴王影子帮助，我忧快活的生活，因一个女孩的出现，就此打破… 她不漂亮，但就是吸引我的那双笨猴眼，魂牵梦饶… 发现我喜欢上她了，姐妹帮助，猴影也说一切包他身上。 我说我自己能搞定。 我表白了，无情的现实将俺那真诚的心“巴嗲”摔粉碎，她有喜欢的人了… 事实将无忧无虑，活灵活现的诚心猴带走了… 姐妹说情，猴影用法，都无法挽回女孩坚定的爱… 反而更如磐石了，一番激烈思想搏斗，黑眼圈的袭击，体重轻的现身。 我为情消瘦憔悴。
+
+想通了，放手，祝福她… 大步走人生，放眼观世冷。 从此动网多了个有心伤的诚诚，球场来了个很忧郁的猴疯。 谢谢朋友和猴影帮助…
