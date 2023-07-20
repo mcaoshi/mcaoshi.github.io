@@ -1,9 +1,0 @@
----
-layout: author
-photo: /assets/img/uploads/p2212203328.jpg
-name: 对酒当歌
-display_name: 对酒当歌
-position: The One
-bio: 对酒当歌 人生几何
-github_username: aiyobudui
----
