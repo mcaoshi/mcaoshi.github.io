@@ -11,13 +11,13 @@ tags:
 show_hero: true
 paginate: 25
 menu:
-  - title: Home
+  - title: 首页
     url: /
-  - title: About
+  - title: 关于
     url: /about
-  - title: Contact
+  - title: 联系
     url: /contact
-  - title: Feed
+  - title: rss地图
     url: /feed.xml
 email: jaygny@qq.com
 disqus_username: disqus_username
