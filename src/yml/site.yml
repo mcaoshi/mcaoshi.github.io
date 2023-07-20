@@ -1,14 +1,15 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+formspree_form_id: formspree_form_id
+name: 对酒当歌
+title: 网盘资源分享博客
+description: 用于分享一些储存在网络云盘里的资源
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - 阿里云盘
+  - 阿里云盘资源
+  - 对酒当歌
+  - 分享
+  - 影视资源
 show_hero: true
+paginate: 25
 menu:
   - title: Home
     url: /
@@ -18,9 +19,5 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
-# See: https://disqus.com/
+email: jaygny@qq.com
 disqus_username: disqus_username
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: formspree_form_id
