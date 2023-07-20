@@ -23,7 +23,7 @@ error_404:
 contact:
   title: 标题
   subject: 电子邮件主题标题
-  submit_btn: 提交按钮标签
+  submit_btn: 提交
   placeholders:
     name: 您的昵称
     email: 您的电子邮件
@@ -36,4 +36,4 @@ contact:
     empty_message: 没有留言内容
   after_send:
     title: 消息已发送!
-    message: 谢谢你给我发消息。我会尽快回答!!
+    message: 谢谢你给我发消息！我会尽快回答!
