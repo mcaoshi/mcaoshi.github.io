@@ -1,4 +1,4 @@
-formspree_form_id: formspree_form_id
+formspree_form_id: your_formspree_form_id
 name: 对酒当歌
 title: 网盘资源分享博客
 description: 用于分享一些储存在网络云盘里的资源
@@ -9,17 +9,35 @@ tags:
   - 分享
   - 影视资源
 show_hero: true
-paginate: 25
+paginate: 31
 menu:
   - title: 首页
     url: /
-  - title: 关于
-    url: /about
+  - title: 国产剧
+    url: /category/国产剧/
+  - title: 日韩剧
+    url: /category/日韩剧/
+  - title: 欧美剧
+    url: /category/欧美剧/
+  - title: 电影合集
+    url: /category/电影合集/
+  - title: 动画电影
+    url: /category/动画电影/
+  - title: 动画剧集
+    url: /category/动画剧集/
+  - title: 儿童动画
+    url: /category/儿童动画/
+  - title: 纪录片
+    url: /category/纪录片/
+  - title: 音乐
+    url: /category/音乐/
   - title: 联系
     url: /contact
-  - title: rss地图
+  - title: 关于
+    url: /about
+  - title: SSR地图
     url: /feed.xml
-  - url: /123
-    title: "123"
+  - title: 测试中
+    url: /测试
 email: jaygny@qq.com
 disqus_username: disqus_username
