@@ -1,59 +1,59 @@
-# Settings
+# 设置
 
-Customize your website theme colors, layout, titles and more. The settings files can be found in `src/yml`.
+自定义您的网站主题颜色、布局、标题等。设置文件存放在 `src/yml`目录下.
 
-## Site
+## 网站
 
-The general settings can be found in [`src/yml/site.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/site.yml).
+常规设置储存在 [`src/yml/site.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/site.yml)目录下.
 
-> **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
+> **重要提示：** 仅在克隆存储库时。如果您使用的是 `gem`, 修改这些属性 `_config.yml`。
 
 #### `name`
 
-Type: *string*
+类型：*字符串*
 
-The website name will appear in several places, the most important one is at the header.
+网站名称将出现在几个地方，最重要的一个在标题处。
 
-Example:
+例如：
 
 ```yaml
 # site.yml
 name: Jekflix
 ```
 
-#### `title`
+#### `标题e`
 
-Type: *string*
+类型：*字符串*
 
-The website title is used for SEO purposes and set the home page title.
+网站标题用于SEO目的并设置主页标题。
 
-Example:
+例如：
 
 ```yaml
 # site.yml
 title: Jekflix | A blog theme for Jekyll
 ```
 
-#### `description`
+#### `描述`网站标签用作SEO目的的关键字。
 
 Type: *string*
 
-The website description is used for SEO purposes only.
+网站描述仅用于SEO目的.
 
-Example:
+例如：
 
 ```yaml
 # site.yml
 description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
 ```
 
-#### `tags`
+#### `标签`
 
 Type: *list*
 
-The website tags are used as keywords for SEO purposes.
+网站标签用作SEO目的的关键字.
 
-Example:
+例如：
 
 ```yaml
 # site.yml
@@ -67,30 +67,32 @@ tags:
 
 #### `email`
 
-Type: *string*
+类型：*字符串*
 
-The email is used for the Contact page with legacy [Formspree](https://formspree.io/) forms.
+该电子邮件用于带有旧版 [Formspree](https://formspree.io/) 表单的“联系人”页面。
 
-Leaving this and `formspree_form_id` blank won't show a Contact page.
+将此和`formspree_form_id`留空不会显示“联系人”页面。
 
-> **Warning:** This will become obsolete in v4
+> **警告：** 这将在 v4 中过时
 
-Example:
+
+例如：
 
 ```yaml
 # site.yml
 email: youremail@xyz.com
 ```
 
-#### `formspree_form_id `
+#### `表单预置表单 ID `
 
-Type: *string*
+类型：*字符串*
 
-The [Formspree](https://formspree.io/) ID is used in Contact page.
+[表单](https://formspree.io/) ID 在联系人页面中使用。
 
-Leaving this and `email` blank won't show a Contact page.
+将此内容和“电子邮件”留空不会显示“联系人”页面。
 
-Example:
+例如：
+
 
 ```yaml
 # site.yml
@@ -99,24 +101,24 @@ formspree_form_id: your_formspree_form_id
 
 #### `disqus_username`
 
-Type: *string*
+类型：*字符串*
 
-Set your [Disqus](https://disqus.com) username to add comments to your posts. Leave it blank if you don't want enable comments.
+设置您的 [Disqus](https://disqus.com)用户名以在您的帖子中添加评论。如果您不想启用注释，请将其留空。
 
-Example:
+例如：
 
 ```yaml
 # site.yml
 disqus_username: disqus_username
 ```
 
-#### `show_hero`
+#### `首页大图`
 
-Type: *boolean*
+类型：*布尔值*
 
-Show/hide hero in the home page. It accepts the values `true` or `false`.
+在主页中 显示/隐藏它,它接受值`true` 和 `false`。
 
-Example with hero:
+例如：
 
 ```yaml
 # site.yml
@@ -125,7 +127,7 @@ show_hero: true
 
 ![Home page with hero screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566477681/page-with-hero-screenshot_ixyjzp.jpg)
 
-Example without hero:
+>没有首页大图的例子
 
 ```yaml
 # site.yml
@@ -134,13 +136,13 @@ show_hero: false
 
 ![Home page without hero screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566477862/page-without-hero-screenshot_gobnva.jpg)
 
-#### `paginate`
+#### `标页数`
 
-Type: *integer*
+类型：*整数*
 
-Add pagination to the home page.
+将分页添加到主页。
 
-Set an integer > 0 to the amount of posts to show per page. Leave it blank if you don't want pagination.
+将一个整数设置为 0 >，表示每页要显示的帖子数,如果您不想分页，请将其留空。
 
 ```yaml
 # site.yml
@@ -149,15 +151,15 @@ paginate: 12
 
 ## Social
 
-The social settings can be found in [`src/yml/social.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/social.yml). Social media icons appear in the footer of every page.
+社交设置可以在 [`src/yml/social.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/social.yml). 社交媒体图标出现在每个页面的页脚中。
 
-> **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
+> **重要：** 仅在克隆存储库时。如果您使用的是“gem”，请在`_config.yml`。
 
 #### `github_username`
 
-Type: *string*
+类型：*字符串*
 
-Set the GitHub username for the website.
+设置网站的 GitHub 用户名。
 
 ```yaml
 # social.yml
@@ -166,9 +168,9 @@ github_username: github_username
 
 #### `facebook_username`
 
-Type: *string*
+类型：*字符串*
 
-Set the Facebook username for the website.
+为网站设置脸书用户名。
 
 ```yaml
 # social.yml
@@ -177,9 +179,9 @@ facebook_username: facebook_username
 
 #### `twitter_username`
 
-Type: *string*
+类型：*字符串*
 
-Set the Twitter username for the website.
+设置网站的推特用户名。
 
 ```yaml
 # social.yml
@@ -188,9 +190,9 @@ twitter_username: twitter_username
 
 #### `instagram_username`
 
-Type: *string*
+类型：*字符串*
 
-Set the Instagram username for the website.
+设置网站的Instagram用户名。
 
 ```yaml
 # social.yml
@@ -199,9 +201,9 @@ instagram_username: instagram_username
 
 #### `linkedin_username`
 
-Type: *string*
+类型：*字符串*
 
-Set the LinkedIn username for the website.
+设置网站的LinkedIn用户名。
 
 ```yaml
 # social.yml
@@ -210,34 +212,34 @@ linkedin_username: linkedin_username
 
 #### `medium_username`
 
-Type: *string*
+类型：*字符串*
 
-Set the Medium username for the website.
+设置网站的Medium username用户名。
 
 ```yaml
 # social.yml
 medium_username: medium_username
 ```
 
-## Theme
+## 主题
 
-The theme settings are in [`src/yml/theme.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/theme.yml). You just need to change this file and run `gulp build`.
+主题设置在 [`src/yml/theme.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/theme.yml). 您只需要更改此文件并运行 `gulp build`。
 
-> **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, follow [these instructions](https://github.com/thiagorossener/jekflix-template#theme-colors).
+> **重要提示：** 仅在克隆存储库时。如果您使用的是“宝石”，请按照以下操作 [these instructions](https://github.com/thiagorossener/jekflix-template#theme-colors).
 
 ### GitHub pages
 
-It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
+这是一个已知问题，即在将网站部署到 GitHub 页面时无法运行 Gulp。因此，您必须更改主题颜色并在本地运行`gulp build` ，然后将更改推送到您的存储库中，没有其他方法。
 
-To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` and access `http://127.0.0.1:4000/`.
+要查看部署网站时的外观，请运行`bundle exec jekyll serve` 和访问 `http://127.0.0.1:4000/`.
 
-#### `themeColor`
+#### `主题颜色`
 
-Type: *hexadecimal*
+类型：*十六进制*
 
 Default: ![#ff0a16](https://placehold.it/15/ff0a16/000000?text=+) `#FF0A16`
 
-Color used in links, icons and some custom elements.
+链接、图标和一些自定义元素中使用的颜色。
 
 ```yaml
 # theme.yml
@@ -246,50 +248,50 @@ themeColor: "#ff0a16"
 
 #### `primaryDark`
 
-Type: *hexadecimal*
+类型：*十六进制*
 
 Default: ![#141414](https://placehold.it/15/141414/000000?text=+) `#141414`
 
-Color used in dark backgrounds and some texts.
+深色背景和某些文本中使用的颜色。
 
 ```yaml
 # theme.yml
 primaryDark: "#141414"
 ```
 
-#### `accentDark`
+#### `深色`
 
-Type: *hexadecimal*
+类型：*十六进制*
 
 Default: ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#FFFFFF`
 
-Color used in light backgrounds and as contrast to dark backgrounds.
+用于浅色背景和与深色背景对比的颜色.
 
 ```yaml
 # theme.yml
 accentDark: "#ffffff"
 ```
 
-#### `lightGray`
+#### `浅色`
 
-Type: *hexadecimal*
+类型：*十六进制*
 
 Default: ![#f2f2f2](https://placehold.it/15/f2f2f2/000000?text=+) `#F2F2F2`
 
-Color used in borders, contrast to light backgrounds, some links and subtitles.
+边框中使用的颜色，与浅色背景的对比，一些链接和字幕.
 
 ```yaml
 # theme.yml
 lightGray: "#f2f2f2"
 ```
 
-#### `texts`
+#### `文本`
 
-Type: *hexadecimal*
+类型：*十六进制*
 
 Default: ![#333333](https://placehold.it/15/333333/000000?text=+) `#333333`
 
-Color used in texts overall.
+整体文本中使用的颜色.
 
 ```yaml
 # theme.yml
@@ -298,41 +300,41 @@ texts: "#333333"
 
 ## Posts
 
-The posts settings can be found in [`src/yml/posts.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/posts.yml).
+帖子设置可以在 [`src/yml/posts.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/posts.yml).
 
-> **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
+> **重要提示：** 仅在克隆存储库时。如果您使用的是`gem`，请在 `_config.yml`.
 
-#### `show_time_bar`
+#### `显示时间栏`
 
-Type: *boolean*
+类型：*布尔值*
 
-Show/hide the reading progress bar. It accepts the values `true` or `false`.
+显示/隐藏阅读进度条。它接受值 `true` 或 `false`.
 
 ```yaml
 # posts.yml
 show_time_bar: true
 ```
 
-![Reading Progress Bar Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566425470/progress-bar-screenshot_gem7xb.jpg)
+![阅读进度条截图](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566425470/progress-bar-screenshot_gem7xb.jpg)
 
-#### `show_modal_on_exit`
+#### `退出时显示模态`
 
-Type: *boolean*
+类型：*布尔值*
 
-Show/hide recommendation modal when visitor is leaving the page. It accepts the values `true` or `false`.
+当访问者离开页面时显示/隐藏推荐模式。它接受值 `true` 和 `false`.
 
 ```yaml
 # posts.yml
 show_modal_on_exit: false
 ```
 
-![Modal screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
+![模态截图](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
 
-#### `show_modal_on_finish_post`
+#### `到达页面终点时的显示模态`
 
-Type: *boolean*
+类型：*布尔值*
 
-Show/hide recommendation modal when visitor reaches the end of the post. It accepts the values `true` or `false`.
+当访问者到达帖子末尾时显示/隐藏推荐模式。它接受值 `true` or `false`.
 
 ```yaml
 # posts.yml
@@ -343,39 +345,39 @@ show_modal_on_finish_post: false
 
 #### `two_columns_layout`
 
-Type: *boolean*
+类型：*布尔值*
 
-Switch posts layout between one and two column. It accepts the values `true` or `false`.
+在一列和两列之间切换帖子布局。它接受值`true` or `false`.
 
-Example with two columns:
+>两列示例：
 
 ```yaml
 # posts.yml
 two_columns_layout: true
 ```
 
-![Post with two columns screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476793/two-columns-screenshot_phumrl.jpg)
+![带有两列帖子的样式](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476793/two-columns-screenshot_phumrl.jpg)
 
-Example with one column:
+>一列示例：
 
 ```yaml
 # posts.yml
 two_columns_layout: false
 ```
 
-![Post with one column screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476792/one-column-screenshot_m1k0xt.jpg)
+![带有一列帖子的样式](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476792/one-column-screenshot_m1k0xt.jpg)
 
-## Advanced
+## 高深
 
-The advanced settings can be found in [`src/yml/advanced.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/advanced.yml).
+高级设置可以在 [`src/yml/advanced.yml`](https://github.com/thiagorossener/jekflix-template/blob/master/src/yml/advanced.yml).
 
-> **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
+>**重要提示：** 仅在克隆存储库时。如果您使用的是`gem`，请在 `_config.yml`.
 
 #### `baseurl`
 
-Type: *string*
+类型：*字符串*
 
-Set the subpath of your site, e.g. `/blog`.
+设置网站的子路径，例如 `/blog`.
 
 ```yaml
 # advanced.yml
@@ -384,31 +386,31 @@ baseurl: ""
 
 #### `url`
 
-Type: *string*
+类型：*字符串*
 
-Set the base hostname and protocol for your site, e.g. `https://rossener.com`
+为您的网站设置基本主机名和协议，例如 `https://rossener.com`
 
 ```yaml
 # advanced.yml
 url: ""
 ```
 
-#### `google_analytics`
+#### `谷歌分析`
 
-Type: *string*
+类型：*字符串*
 
-Set your Google Analytics [tracking ID](https://www.youtube.com/watch?v=Mtzl4tkVdbI).
+设置您的谷歌分析 [tracking ID](https://www.youtube.com/watch?v=Mtzl4tkVdbI).
 
 ```yaml
 # advanced.yml
 google_analytics: "UA-XXXXXXXX-X"
 ```
 
-#### `language`
+#### `语言`
 
-Type: *string*
+类型：*字符串*
 
-Set your website language. It's used for SEO purposes (e.g. `pt-BR`, `en`, `es`, `fr`)
+设置您的网站语言。它用于SEO目的（例如 `pt-BR`, `en`, `es`, `fr`)
 
 ```yaml
 # advanced.yml

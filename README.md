@@ -1,82 +1,80 @@
-# Jekflix Template
+# Jekflix 主题模板
 
 ![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
 
-See the [demo here](https://jekflix.rossener.com/).
+>在此处查看[实列](https://jekflix.rossener.com/).
 
-## What is it?
+## 这是什么？
 
-A theme for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance.
+>jekyll 主题灵感来自 Netflix （网飞）面板，适合喜欢电影和电视剧的人，它是一个酷炫外观的博客.
 
 ![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
 
-## Features
+## 特征
 
-- [Live Search](docs/features.md#live-search)
-- [Estimated Reading Time](docs/features.md#estimated-reading-time)
-- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
-- ["New Post" tag](docs/features.md#new-post-tag)
-- [Load images on demand](docs/features.md#load-images-on-demand)
-- [Push Menu](docs/features.md#push-menu)
-- [SVG icons](docs/features.md#svg-icons)
-- [Shell script to create posts](docs/features.md#shell-script-to-create-posts)
-- [Tags page](docs/features.md#tags-page)
-- [About page](docs/features.md#about-page)
-- [Contact page](docs/features.md#contact-page)
-- [404 error page](docs/features.md#404-error-page)
-- [Feed RSS](docs/features.md#feed-rss)
-- [Disqus](docs/features.md#disqus) *(optional)*
-- [Featured post](docs/features.md#featured-post) *(optional)*
-- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
-- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
-- [Post recommendation](docs/features.md#post-recommendation)
-- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
-- [Translations](docs/setup.md#translations) **new!**
-- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
+- [在线搜索](docs/features.md#live-search)
+- [预设阅读时间](docs/features.md#estimated-reading-time)
+- [阅读进度条（可选）](docs/features.md#reading-progress-bar) 
+- [新帖子 标签](docs/features.md#new-post-tag)
+- [按需加载图像](docs/features.md#load-images-on-demand)
+- [推送菜单](docs/features.md#push-menu)
+- [SVG 图标](docs/features.md#svg-icons)
+- [用于创建帖子的脚本](docs/features.md#shell-script-to-create-posts)
+- [标签页面](docs/features.md#tags-page)
+- [关于页面](docs/features.md#about-page)
+- [联系页面](docs/features.md#contact-page)
+- [404 错误页](docs/features.md#404-error-page)
+- [RSS 地图](docs/features.md#feed-rss)
+- [Disqus（可选）](docs/features.md#disqus) 
+- [精选帖子（可选）](docs/features.md#featured-post) 
+- [主页分页（可选）](docs/features.md#home-page-pagination)
+- [帖子侧边栏（可选）](docs/features.md#posts-sidebar)
+- [分页帖子（可选）](docs/features.md#paginated-posts) 
+- [触发模式（可选）](docs/features.md#before-you-go-modal) 
+- [帖子推荐](docs/features.md#post-recommendation)
+- [Netlify CMS 发帖管理系统](docs/features.md#netlify-cms-ready)
+- [翻译](docs/setup.md#translations) **new!**
+- [数学表达式（可选）新增！](docs/features.md#math-expressions) **new!**
 
-## SEO
+## 搜索引擎优化
 
-- Google Analytics
-- Meta tags
+- Google Analytics       / 谷歌分析
+- Meta tags              / 元标记
 - JSON-LD
-- Sitemap.xml
-- Social Media ready
+- Sitemap.xml            / 网站地图.xml
+- Social Media ready     /社交媒体就绪
 
-## Quick Install
+## 快速安装
 
-In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
+>如果您要安装到现有的 Jekyll 项目，请将此行添加到项目的`Gemfile`
 
 ```
 gem "jekflix"
 ```
 
-Add this line to your project's `_config.yml`:
+将此行添加到项目的： `_config.yml`:
 
 ```
 theme: jekflix
 ```
 
-And then run:
+然后运行：
 
 ```
 $ bundle
 ```
 
-Or install it yourself as:
+或者自己安装为：
 
 ```
 $ gem install jekflix
 ```
 
-### Theme Colors
+### 主题颜色
 
-Create the file `/assets/css/styles.scss` and add:
+主题颜色目录 `/assets/css/styles.scss` 
 
-```
----
----
+```txt
 
 $themeColor: #ff0a16;
 $primaryDark: #141414;
@@ -87,138 +85,51 @@ $texts: #333333;
 @import "jekflix";
 ```
 
-Modify the variables above to change your theme colors.
+>修改上面的颜色值可以更改主题颜色.
 
-### Site configuration
+### 站点配置
 
-Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
+您可以在项目中更改的一些属性，请查看 [文档](docs/settings.md#settings) 更改根目录下的`_config.yml`文件，它能自定义一些配置.
 
-```
-# Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
-tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
-show_hero: true
-menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
+## 安装
 
-# Social Media Settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+>如果要克隆此存储库，请按照以下说明操作：
 
-# Posts Settings
-show_time_bar: true
-show_modal_on_exit: false
-show_modal_on_finish_post: true
-two_columns_layout: true
+- [环境](docs/setup.md#environment)
+- [安装模板](docs/setup.md#installing-template)
+- [本地运行](docs/setup.md#running-local)
 
-# Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
-categories_folder: category
-sent_message_url: "/contact/message-sent/"
+## 自定义
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-collections:
-  authors:
-    output: true
-paginate_path: "/page/:num/"
-show_get_theme_btn: true
-use_logo: false
+>请参阅 [设置文档](docs/settings.md#settings) 以自定义布局、标题、社交媒体等.
 
-# Content paginator
-paginate_content:
-  enabled: true
-  debug: false
-  collections:
-    - posts
-  auto: false
-  separator: "--page-break--"
-  permalink: "/:num/"
-  seo_canonical: true
-  properties:
-    part:
-      is_generated: true
-    last:
-      is_generated: true
-    single:
-      is_generated: true
+## 主题
 
-# SASS
-sass:
-  style: compressed
+>您可以通过更改文件轻松更改主题颜色 `src/yml/theme.yml`, 然后在您的终端中运行 `gulp build` .
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-paginate-content
-```
+## GitHub pages
 
-## Setup
+>这是一个已知问题，将网站部署到 GitHub pages 时无法运行 gulp， 因此，您必须更改主题的颜色并在本地执行命令，`gulp build` 然后将更改推送到GitHub 仓库中，目前没有其他解决办法.
+要查看部署网站时的外观，请在本地运行`gulp build`后，在访问. http://127.0.0.1:4000/
 
-In the case you're cloning this repo, follow those instructions:
+## 发布帖子
 
-- [Environment](docs/setup.md#environment)
-- [Installing template](docs/setup.md#installing-template)
-- [Running local](docs/setup.md#running-local)
+使用 `Markdown`[格式参看](docs/post.md#front-matter-properties) 创建帖子.
 
-### Customization
+> **Note:** 注意：如果要克隆此存储库，可以使用可用[脚本](docs/post.md#creating-a-post)自动生成帖子.
 
-See the [settings documentation](docs/settings.md#settings) to customize layout, titles, social media and more.
+## 问题？
 
-### Theme
+>请提交  [GitHub 问题](https://github.com/thiagorossener/jekflix-template/issues/new).
 
-You can easily change the theme colors by changing the file `src/yml/theme.yml`, then running `gulp build` in your terminal.
+## 许可证
 
-#### GitHub pages
+>Jekflix 模板在 MIT许可证下可用.有关详细信息，请参阅[许可证](https://github.com/thiagorossener/jekflix-template/blob/master/LICENSE)文件. 
 
-It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
-
-To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` locally and access `http://127.0.0.1:4000/`.
-
-## Posts
-
-Use the [Front Matter properties](docs/post.md#front-matter-properties) to create posts.
-
-> **Note:** In the case you're cloning this repo, you can use the available [script](docs/post.md#creating-a-post) to generate posts automatically.
-
-## Questions?
-
-File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
-
-## Author
+## 作者
 
 [Thiago Rossener](https://rossener.com/)
 
 Do you like my work? Buy me a coffee!
 
 <a href="https://www.buymeacoffee.com/thiagorossener" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-## License
-
-*Jekflix Template* is available under the MIT license. See the [LICENSE](https://github.com/thiagorossener/jekflix-template/blob/master/LICENSE) file for more info.

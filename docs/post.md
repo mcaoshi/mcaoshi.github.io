@@ -1,256 +1,249 @@
 # Post
 
-## Creating a post
+## 创建帖子
 
-You can use the `initpost.sh` script to generate new posts when you clone the repo (the script isn't available in the `gem`).
+克隆repo时，可以使用`initpost.sh`脚本生成新的post（该脚本在`gem`中不可用）。
 
-To do so, in your project directory, just run:
+要执行此操作，只需在项目目录中运行：
 
 ```
 ./initpost.sh -c "Your Post Title"
 ```
 
-The new file will be created in `_posts` with the format `YYYY-MM-DD-your-post-title.md`.
+新文件将在`_posts'目录中创建，格式为`YYYY-MM-DD-标题.md`。
 
-## Front Matter properties
+## Front Matter属性
 
-If you don't know what these are, check the Jekyll [documentation](https://jekyllrb.com/docs/front-matter/).
+>如果您不知道这些是什么，请检查 Jekyll 的 [文档](https://jekyllrb.com/docs/front-matter/)。
 
-A *Jekflix* post file looks like:
+*Jekflix* 发布post文件如下所示：
 
 ```yaml
-# _posts/2010-01-01-welcome-to-the-desert-of-the-real.md
+# _posts/2010-01-01-标题.md
+
 ---
 date: 2019-05-16 23:48:05
 layout: post
-title: Welcome to the desert of the real
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
-category: blog
+title: 标题
+subtitle: 副标题
+description: 描述.
+image: 图片
+optimized_image: 优化的图片
+category: 分类
 tags:
-  - welcome
-  - blog
-author: thiagorossener
+  - 标签1
+  - 标签2
+  - 标签3 
+author: 发布的作者
 paginate: true
 ---
-
-bla bla bla
 ```
 
-Below is a full list of the template Front Matter properties explained:
+以下是模板的完整列表  Matter properties 解释:
 
-#### `date`
+#### `日期`
 
-Type: *datetime*
+类型： *日期时间*
 
-The post publishing date. Format: `YYYY-MM-DD hh:mm:ss`
+发布后日期。格式： `YYYY-MM-DD hh:mm:ss`
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
-date: 2019-05-16 23:48:05
-...
+
+date: 2022-05-16 23:48:05
+
 ---
 ```
 
-#### `layout`
+#### `布局`
 
-Type: *string*
+类型：*字符串*
 
-The layout file that will be used. The template has only one valid layout for posts, which is `post`.
+>将使用的布局文件。该模板只有一个有效的帖子布局，即 `post`.
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
+
 layout: post
-...
+
 ---
 ```
 
-#### `title`
+#### `标题`
 
-Type: *string*
+类型：*字符串*
 
-The post title.
+>帖子的标题。
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
-title: Welcome to the desert of the real
-...
+
+title: 小明回家就会被揍，为什么
+
 ---
 ```
 
-#### `subtitle`
+#### `副标题`
 
-*(Optional)*
+*（可选）*
 
-Type: *string*
+类型：*字符串*
 
-The post subtitle. It appears below the title.
+>帖子副标题。它显示在标题下方。
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-...
+
+subtitle: 可能是因为在学校调皮被老师请家长
+
 ---
 ```
 
-#### `description`
+#### `描述`
 
-Type: *string*
+类型：*字符串*
 
-The post description. It's used in the home and category pages, in meta description tag for SEO purposes and for social media sharing.
+>帖子描述。它用于主页和类别页面，用于SEO目的和社交媒体共享的元描述标签。
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
-description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
-...
+
+description: 这次请家长可能最重要的原因是，小明把女同学的衣服撕破了。
+
 ---
 ```
 
-#### `image`
+#### `图片`
 
-Type: *url*
+类型：*url*
 
-The featured image. It's used in the home and category pages and for social media sharing.
+>特色图片。它用于主页和类别页面以及社交媒体共享，可以使图片超链接和本地上传。
 
-**Tip:** Use a media server to provide images for your website, like [Cloudinary](https://cloudinary.com)
+**提示：** 使用媒体服务器为您的网站提供图像，例如 [Cloudinary](https://cloudinary.com)
 
-*Obs: The recommended image resolution is 760x399*
+*Obs：推荐的图像分辨率为 760x399*
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
+
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-...
+
 ---
 ```
 
-#### `optimized_image`
+#### `优化的图像`
 
-*(Optional*)
+*（可选*）
 
-Type: *url*
+类型：*url*
 
-The optimized featured image. Set a smaller image to appear in the home and category pages, they will load faster.
+>优化的特色图片。设置较小的图像以显示在主页和类别页面中，它们将加载得更快。
+如果没有设置“optimized_image”，页面将显示“image”中的图片。
 
-In case there is no `optimized_image` set, the pages show the one in the `image` property.
+*Obs：建议的图像分辨率为 380x200*
 
-*Obs: The recommended image resolution is 380x200*
-
-Example:
+例如：
 
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
-...
+
 ---
 ```
 
-#### `category`
+#### `类别`
 
-Type: *string*
+类型：*字符串*
 
-Only one category is allowed. Make sure to create a `<category>.md` file in `category` directory if it's a new one.
+>只允许一个类别。如果是<category>.md，请确保在“类别”目录中创建一个“.md”文件。
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
-category: blog
-...
+
+category: 水果
+
 ---
 ```
 
-#### `tags`
+#### “标签”
 
-Type: *list*
+类型： *列表*
 
-A list of the post keywords. It's used in the home, category and tags pages, and as meta keywords for SEO purposes.
+>帖子关键字列表。它用于主页，类别和标签页面，并用作SEO目的的元关键字。
 
-Example:
+例如：
 
 ```yaml
-# _posts/2019-08-22-example.md
+# _posts/2022-08-22-example.md
 ---
-...
+
 tags:
-  - welcome
-  - blog
-...
+  - 葡萄
+  - 桃子
+
 ---
 ```
 
-#### `author`
+#### “作者”
 
-*(Optional)*
+*（可选）*
 
-Type: *string*
+类型：*字符串*
 
-The post author. Set the author filename used in the `_authors` folder.
+>帖子作者。设置`_authors`文件夹中使用的作者文件名。
+每次创建新作者时，请确保在其中也创建一个文件。
+如果没有作者，请将其留空。
 
-Every time you create a new author, make sure to create a file in there too.
-
-Leave it blank if there is no author.
-
-Example:
+例如：
 
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
-author: thiagorossener
-...
+
+author: 樱桃酱
+
 ---
 ```
 
-#### `paginate`
+#### `标页数`
 
-*(Optional)*
+*（可选）*
 
-Type: *boolean*
+类型：*布尔值*
 
-To break your post into pages, set the property `paginate` to `true` and use the divider `--page-break--` where you want to break it.
+>要将帖子分成几页，请将属性`paginate`设置为`true` ，并在要中断的位置使用分隔符 `--page-break--` 
 
-**Note:** The template uses the `jekyll-paginate-content`, which is [not supported for GitHub Pages](https://pages.github.com/versions/). If you need that feature, please deploy somewhere else like Netlify.
+**注意：** 该模板使用`jekyll-paginate-content`，[GitHub 页面不支持](https://pages.github.com/versions/)。如果您需要该功能，请部署到其他位置。
 
-Example:
+例如：
 
 ```yaml
-# 2019-08-20-ten-skills-you-need-to-have-to-become-a-good-developer.md
+# 2022-08-20-ten-skills-you-need-to-have-to-become-a-good-developer.md
 ---
-...
+
 paginate: true
-...
+
 ---
 
 Skill 1
@@ -260,6 +253,6 @@ Skill 1
 Skill 2
 ```
 
-It would look like:
+如下图:
 
 ![Paginated Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566430021/paginated-page-screenshot_zx4xjn.jpg)

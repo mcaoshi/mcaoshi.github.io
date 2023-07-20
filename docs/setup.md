@@ -1,67 +1,67 @@
-# Setup
+# 安装
 
-## Environment
+## 环境
 
-Before starting, make sure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [NodeJS](https://nodejs.org/) installed.
+在开始之前，请确保您已安装 [Ruby](https://www.ruby-lang.org/en/documentation/installation/) 和 [NodeJS](https://nodejs.org/) .
 
-Then install Jekyll:
+然后安装 `Jekyll`:
 
-```
+```txt
 $ gem install jekyll
 ```
 
-And install Gulp client:
+安装 `Gulp` 客户端：:
 
 ```
 $ npm install gulp-cli -g
 ```
 
-## Installing template
+## 安装主题模板
 
-1. Fork the [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
-2. Clone the repo you just forked:
+1. 克隆[ Jekflix 主题 ](https://github.com/thiagorossener/jekflix-template/fork)到你的github仓库，或者直接访问下载
+2. 复制您刚刚克隆的 github 仓库 git 到本地:
+```txt
+$ git clone https://github.com/你的用户名/jekflix-template.git
 ```
-$ git clone https://github.com/<your-github-username>/jekflix-template.git
-```
-3. Access the local project:
-```
+2. 到 jekyll-template 主题目录下：
+```txt
 $ cd path/to/jekyll-template
 ```
-4. Install npm packages:
-```
+3. 安装 npm 包：:
+```txt
 $ npm install
 ```
-5. Install Ruby dependencies:
-```
+4. 安装 Ruby 依赖项：:
+```txt
 $ bundle install
 ```
-6. Build Jekyll:
-```
+5. 构建 Jekyll:
+```txt
 $ bundle exec jekyll build
 ```
-7. Then run Gulp:
-```
+6. 然后运行 Gulp:
+```txt
 $ gulp
 ```
 
-## Running local
+## 在本地运行
 
-After the steps above, to run Jekyll locally, you'll just need to run Gulp:
-```
+完成上述步骤后，要在本地运行 Jekyll，您只需运行 Gulp:
+```txt
 $ gulp
 ```
 
-## Customization
+## 定制
 
-*Jekflix Template* allows you to personalize your site with several settings. See the [docs](settings.md#settings) for more details.
+*Jekflix 模板允许您使用多种设置个性化您的网站。有关更多详细信息，请参阅[文档](settings.md#settings) .
 
-For advanced theme customization, check the directory `_sass` for style files.
+对于高级主题自定义，请检查目录`_sass`中的样式文件
 
-## Translations
+## 翻译
 
-In order to translate texts throughout the theme, create a `translations.yml` file in `src/yml` and add the settings below.
+为了翻译整个主题中的文本，请在`src/yml`中创建`translations.yml`文件并添加以下设置。
 
-> **Note:** If you're using the `gem`, just add it into your `_config.yml`.
+> **注意：**如果您使用的是`gem`，只需将其添加到`_config.yml`中即可。
 
 ```
 translations:

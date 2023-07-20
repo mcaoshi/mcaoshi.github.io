@@ -2,33 +2,33 @@
 
 _Jekflix_ comes with features to help you create/edit/share content and provide a nice experience for your visitors.
 
-- [Live Search](features.md#live-search)
-- [Estimated Reading Time](features.md#estimated-reading-time)
-- [Reading Progress Bar](features.md#reading-progress-bar) *(optional)*
-- ["New Post" tag](features.md#new-post-tag)
-- [Load images on demand](features.md#load-images-on-demand)
-- [Push Menu](features.md#push-menu)
-- [SVG icons](features.md#svg-icons)
-- [Shell script to create posts](features.md#shell-script-to-create-posts)
-- [Tags page](features.md#tags-page)
-- [About page](features.md#about-page)
-- [Contact page](features.md#contact-page)
-- [404 error page](features.md#404-error-page)
-- [Feed RSS](features.md#feed-rss)
-- [Disqus](features.md#disqus) *(optional)*
-- [Featured post](features.md#featured-post) *(optional)*
-- [Home page pagination](features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](features.md#posts-sidebar) *(optional)*
-- [Paginated posts](features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](features.md#before-you-go-modal) *(optional)*
-- [Post recommendation](features.md#post-recommendation)
-- [Netlify CMS ready](features.md#netlify-cms-ready)
-- [Translations](setup.md#translations)
-- [Math Expressions](features.md#math-expressions) *(optional)*
+- [在线搜索](docs/features.md#live-search)
+- [预设阅读时间](docs/features.md#estimated-reading-time)
+- [阅读进度条（可选）](docs/features.md#reading-progress-bar) 
+- [新帖子 标签](docs/features.md#new-post-tag)
+- [按需加载图像](docs/features.md#load-images-on-demand)
+- [推送菜单](docs/features.md#push-menu)
+- [SVG 图标](docs/features.md#svg-icons)
+- [用于创建帖子的脚本](docs/features.md#shell-script-to-create-posts)
+- [标签页面](docs/features.md#tags-page)
+- [关于页面](docs/features.md#about-page)
+- [联系页面](docs/features.md#contact-page)
+- [404 错误页](docs/features.md#404-error-page)
+- [提要 RSS](docs/features.md#feed-rss)
+- [Disqus（可选）](docs/features.md#disqus) 
+- [精选帖子（可选）](docs/features.md#featured-post) 
+- [主页分页（可选）](docs/features.md#home-page-pagination)
+- [帖子侧边栏（可选）](docs/features.md#posts-sidebar)
+- [分页帖子（可选）](docs/features.md#paginated-posts) 
+- [触发模式（可选）](docs/features.md#before-you-go-modal) 
+- [帖子推荐](docs/features.md#post-recommendation)
+- [Netlify CMS](docs/features.md#netlify-cms-ready)
+- [翻译新！](docs/setup.md#translations) **new!**
+- [数学表达式（可选）新增！](docs/features.md#math-expressions) **new!**
 
-## Live Search
+## 在线搜索
 
-Located in the top right corner of the template, the search component looks for post titles, categories and tags. It's a simple search for static websites.
+搜索组件位于模板的右上角，用于查找帖子标题、类别和标签。这是对静态网站的简单搜索。
 
 ![Search Box Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566426001/search-screenshot_sc5edu.jpg)
 
