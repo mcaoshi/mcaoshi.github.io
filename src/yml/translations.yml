@@ -2,7 +2,7 @@ texts:
   new_post: NEW POST
   seel_also: 为你推荐
   search: 搜索
-  share: 共享
+  share: 分享
   comments: 评论
 button:
   read_now: 立即阅读
@@ -12,7 +12,7 @@ pagination:
   page: 页面
   of: of
   next_page: 下一页
-  next_post: 下一篇文章
+  next_post: 上一页
 recommendation:
   text: 发送
   back_btn: 返回顶部
@@ -32,8 +32,8 @@ contact:
     locale: en
     empty_name: 插入您的昵称
     empty_email: 插入您的电子邮件
-    invalid_email: 无效的电子邮件
+    invalid_email: 电子邮件无效
     empty_message: 没有留言内容
   after_send:
-    title: 消息已发送
-    message: 感谢您联系我们
+    title: 消息已发送!
+    message: 谢谢你给我发消息。我会尽快回答!!
