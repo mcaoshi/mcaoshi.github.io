@@ -1,17 +1,78 @@
 # Site Settings
-#=include site.yml
+name: 对酒当歌
+title: 网盘资源分享博客
+description: 用于分享一些储存在网络云盘上的资源
+timezone: GMT+8
+tags:
+  - 阿里云盘
+  - 阿里云盘资源
+  - 对酒当歌
+  - 分享
+  - 影视资源
+show_hero: true
+paginate: 31
+menu:
+  - title: 首页
+    url: /
+  - title: 国产剧
+    url: /category/国产剧/
+  - title: 日韩剧
+    url: /category/日韩剧/
+  - title: 欧美剧
+    url: /category/欧美剧/
+  - title: 电影合集
+    url: /category/电影合集/
+  - title: 动画电影
+    url: /category/动画电影/
+  - title: 动画剧集
+    url: /category/动画剧集/
+  - title: 儿童动画
+    url: /category/儿童动画/
+  - title: 纪录片
+    url: /category/纪录片/
+  - title: 音乐
+    url: /category/音乐/
+  - title: 联系
+    url: /contact
+  - title: 关于
+    url: /about
+  - title: SSR地图
+    url: /feed.xml
+email: jaygny@qq.com
 
-# Social Media Settings
-# Remove the item if you don't need it
-#=include social.yml
+# See: https://disqus.com/
+# disqus_username: disqus_username
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
 
-# Posts Settings
-#=include posts.yml
+# 社交媒体设置
+# 如果不需要，请将其删除
+  github_username: aiyobudui 
+# facebook_username: facebook_username
+# twitter_username: twitter_username
+# instagram_username: instagram_username
+# linkedin_username: linkedin_username
+# medium_username: medium_username
 
-# Advanced Settings
-#=include advanced.yml
+# 帖子显示设置
+show_time_bar: false
+show_modal_on_exit: false
+show_modal_on_finish_post: false
+#在一列和两列之间切换帖子布局。它接受值或 true  false
+two_columns_layout: true        
 
-# Build settings
+# 高级设置
+# 设置站点的子路径，例如 /blog
+baseurl: /
+url: https://hao.netlify.app/
+google_analytics: UA-XXXXXXXX-X
+language: zh-cn
+categories_folder: category
+sent_message_url: /contact/message-sent/
+
+
+# 生成设置
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
@@ -22,7 +83,7 @@ paginate_path: "/page/:num/"
 show_get_theme_btn: true
 use_logo: false
 
-# Content paginator
+# 内容分页器
 paginate_content:
   enabled: true
   debug: false
@@ -44,12 +105,12 @@ paginate_content:
 sass:
   style: compressed
 
-# Plugins
+# 插件
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
 
-# Exclude my node related stuff
+# 排除我的节点相关内容
 exclude: [
   'package.json',
   'package-lock.json',
