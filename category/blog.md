@@ -1,7 +1,6 @@
 ---
 layout: category
-title: Blog
+title: 儿童动画
 slug: blog
-description: A category for general blog posts.
+description: 儿童动画片,少儿动画片.
 ---
-
