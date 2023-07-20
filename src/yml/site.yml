@@ -37,7 +37,7 @@ menu:
     url: /about
   - title: SSR地图
     url: /feed.xml
-  - title: 测试呀
+  - title: 测试
     url: /测试
 email: jaygny@qq.com
 disqus_username: disqus_username
