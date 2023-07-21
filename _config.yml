@@ -10,7 +10,7 @@ tags:
   - 分享
   - 影视资源
 show_hero: true
-paginate: 25
+paginate: 24
 menu:
   - title: 首页
     url: /
