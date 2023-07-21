@@ -75,7 +75,7 @@
     margin: rem(20px) auto 0;
 
     @include media(">=sm") {
-      font-size: rem(18px);
+      font-size: rem(16.1px);
       line-height: rem(30px);
       margin: rem(29px) auto 0;
     }
@@ -292,7 +292,7 @@
       color: rgba(0, 0, 0, 0.6);
       margin: 0;
       @include media(">=sm") {
-        font-size: rem(16.1px);
+        font-size: rem(18px);
       }
     }
   }
