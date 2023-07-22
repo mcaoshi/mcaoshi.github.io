@@ -15,23 +15,23 @@ menu:
   - title: 首页
     url: 
   - title: 国产剧
-    url: /category/gcj/
+    url: /category/国产剧/
   - title: 日韩剧
-    url: /category/rhj/
+    url: /category/日韩剧/
   - title: 欧美剧
-    url: /category/omj/
+    url: /category/欧美剧/
   - title: 电影合集
-    url: /category/dyhj/
+    url: /category/电影合集/
   - title: 动画电影
-    url: /category/dhdy/
+    url: /category/动画电影/
   - title: 动画剧集
-    url: /category/dhjj/
+    url: /category/动画剧集/
   - title: 儿童动画
     url: /category/儿童动画/
   - title: 纪录片
-    url: /category/jlp/
+    url: /category/纪录片/
   - title: 其他
-    url: /category/qt/
+    url: /category/其他/
   #- title: 联系
     url: /contact
   #- title: 关于
