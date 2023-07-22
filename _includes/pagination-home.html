@@ -9,7 +9,8 @@
     </a>
     {% endif %}
     <span class="page_number ">{{ site.translations.pagination.page | default: "第" }} {{ paginator.page }} {{
-        site.translations.pagination.of | default: " 页 " }} {{ paginator.total_pages }}</span>
+        site.translations.pagination.of | default: " 页 - 共 " }} {{ paginator.total_pages }}{{
+            site.translations.pagination.of | default: " 页 " }}</span>
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next"
         onclick="ga('send', 'event', 'pagination', 'click', 'page next')">
