@@ -323,7 +323,7 @@ collections:
             name: "texts"
             widget: "object"
             fields:
-              - label: "New"
+              - label: "New Post"
                 name: "new_post"
                 widget: "string"
                 required: false
