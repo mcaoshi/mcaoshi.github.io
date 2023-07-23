@@ -1,7 +1,6 @@
 ---
 layout: 作者
 photo: /assets/img/uploads/p2212203328.jpg
-url: /about
 name: 对酒当歌
 display_name: 对酒当歌
 position: The One
