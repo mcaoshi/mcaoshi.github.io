@@ -20,6 +20,8 @@ menu:
     url: category/日韩剧/
   - title: 欧美剧
     url: category/欧美剧/
+  - title: 热门电影
+    url: category/热门电影/   
   - title: 电影合集
     url: category/电影合集/
   - title: 动画电影
