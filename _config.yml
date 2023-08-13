@@ -35,7 +35,7 @@ menu:
   - title: 其他
     url: category/其他/
   - title: 标签分类
-    url: category/tags/
+    url: tags/
   #- title: 联系
   #  url: /contact
   #- title: 关于
