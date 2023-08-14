@@ -1,14 +1,15 @@
 # Site Settings
 name: 对酒当歌
-title: 对酒当歌网盘资源分享博客
-description: 用于分享一些储存在网络云盘上的资源
+title: 对酒当歌阿里云盘资源分享博客
+description: 分享一些储存在网络云盘上的资源
 timezone: GMT+8
 tags:
   - 阿里云盘
   - 阿里云盘资源
   - 对酒当歌
-  - 分享
-  - 影视资源
+  - 资源分享
+  - 影视资源分享
+  - 对酒当歌阿里云盘资源分享博客
 show_hero: true
 paginate: 24
 menu:
