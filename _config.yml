@@ -8,10 +8,10 @@ tags:
   - 影视资源分享
   - 对酒当歌阿里云盘资源分享
 show_hero: true
-paginate: 24
+paginate: 18
 menu:
   - title: 首页
-    url: 
+    url: #
   - title: 国产剧
     url: category/gcj
   - title: 日韩剧
