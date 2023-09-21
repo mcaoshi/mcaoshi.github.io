@@ -1,20 +1,17 @@
 # Site Settings
 name: 对酒当歌
-title: 对酒当歌阿里云盘资源分享博客
+title: 阿里云盘资源分享
 description: 分享一些储存在网络云盘上的资源
 timezone: GMT+8
 tags:
-  - 阿里云盘
-  - 阿里云盘资源
-  - 对酒当歌
-  - 资源分享
+  - 阿里云盘资源分享
   - 影视资源分享
-  - 对酒当歌阿里云盘资源分享博客
+  - 对酒当歌阿里云盘资源分享
 show_hero: true
 paginate: 24
 menu:
   - title: 首页
-    url: /
+    url: 
   - title: 国产剧
     url: category/国产剧/
   - title: 日韩剧
@@ -24,7 +21,7 @@ menu:
   - title: 热门电影
     url: category/热门电影/   
   - title: 电影合集
-    url: category/电影合集/
+    url: category/dyhj/
   - title: 动画电影
     url: category/动画电影/
   - title: 动画剧集
