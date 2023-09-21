@@ -11,7 +11,7 @@ show_hero: true
 paginate: 18
 menu:
   - title: 首页
-    url: #
+    url: /
   - title: 国产剧
     url: category/gcj
   - title: 日韩剧
