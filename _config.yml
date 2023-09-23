@@ -39,7 +39,7 @@ menu:
   #- title: 关于
   #  url: /about
   #- title: SSR地图
-    url: /feed.xml
+    url: feed.xml
 email: jaygny@qq.com
 
 # See: https://disqus.com/
