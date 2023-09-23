@@ -11,7 +11,7 @@ show_hero: true
 paginate: 18
 menu:
   - title: 首页
-    url: https://alyp.eu.org/
+    url: /index.html
   - title: 国产剧
     url: category/gcj
   - title: 日韩剧
@@ -38,7 +38,7 @@ menu:
   #  url: /contact
   #- title: 关于
   #  url: /about
-  #- title: SSR地图
+  - title: SSR地图
     url: /feed.xml
 email: jaygny@qq.com
 
