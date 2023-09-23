@@ -10,7 +10,7 @@ tags:
 show_hero: true
 paginate: 18
 menu:
-  - title: 首页
+  - title: 首 页
     url: index.html
   - title: 国产剧
     url: category/gcj
@@ -30,7 +30,7 @@ menu:
     url: category/etdh
   - title: 纪录片
     url: category/jlp
-  - title: 其他
+  - title: 其 他
     url: category/qt
   - title: 标签分类
     url: tags
