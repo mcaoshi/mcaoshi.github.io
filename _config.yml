@@ -1,17 +1,17 @@
 # Site Settings
-name: 对酒当歌
-title: 阿里云盘资源分享
-description: 对酒当歌阿里云盘资源分享
+name: 对酒当歌分享
+title: 对酒当歌分享
+description: 用阿里云盘在家就能轻松搭建家庭影院,看美剧,日韩剧,电影,动画,电影,动漫,学习资料等非常轻松，资源一键保存，我这里分享了一些自己整理收集的优质网盘资源，欢迎您的访问。
 timezone: GMT+8
 tags:
-  - 阿里云盘资源分享
-  - 影视资源分享
+  - 对酒当歌分享
+  - 对酒当歌影视资源分享
   - 对酒当歌阿里云盘资源分享
 show_hero: true
 paginate: 18
 menu:
   - title: 首页
-    url: /
+    url: https://alyp.eu.org/
   - title: 国产剧
     url: category/gcj
   - title: 日韩剧
@@ -39,7 +39,7 @@ menu:
   #- title: 关于
   #  url: /about
   #- title: SSR地图
-  #  url: /feed.xml
+    url: /feed.xml
 email: jaygny@qq.com
 
 # See: https://disqus.com/
