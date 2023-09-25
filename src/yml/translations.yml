@@ -19,7 +19,7 @@ recommendation:
 error_404:
   title: 标题
   message: 消息
-  image_alt: 备选image
+  image_alt: 备用image
 contact:
   title: 标题
   subject: 电子邮件主题标题

@@ -1,43 +1,43 @@
 formspree_form_id: your_formspree_form_id
-name: 对酒当歌
-title: 网盘资源分享博客
-description: 用于分享一些储存在网络云盘上的资源
+name: 对酒当歌分享
+title: 对酒当歌分享
+description: 用阿里云盘在家就能轻松搭建家庭影院,看美剧,日韩剧,电影,动画,电影,动漫,学习资料等非常轻松，资源一键保存，我这里分享了一些自己整理收集的优质网盘资源，欢迎您的访问。
 tags:
-  - 阿里云盘
-  - 阿里云盘资源
-  - 对酒当歌
-  - 分享
-  - 影视资源
+  - 对酒当歌分享
+  - 对酒当歌影视资源分享
+  - 对酒当歌阿里云盘资源分享
 show_hero: true
-paginate: 31
+paginate: 18
 menu:
-  - title: 首页
-    url: /
+  - title: 首  页
+    url: index.html
   - title: 国产剧
-    url: /category/国产剧/
+    url: category/gcj
   - title: 日韩剧
-    url: /category/日韩剧/
+    url: category/rhj
   - title: 欧美剧
-    url: /category/欧美剧/
+    url: category/omj
+  - title: 热门电影
+    url: category/rmdy/  
   - title: 电影合集
-    url: /category/电影合集/
+    url: category/dyhj
   - title: 动画电影
-    url: /category/动画电影/
+    url: category/dhdy
   - title: 动画剧集
-    url: /category/动画剧集/
+    url: category/dhjj
   - title: 儿童动画
-    url: /category/儿童动画/
+    url: category/etdh
   - title: 纪录片
-    url: /category/纪录片/
-  - title: 音乐
-    url: /category/音乐/
-  - title: 联系
-    url: /contact
-  - title: 关于
-    url: /about
-  - title: SSR地图
-    url: /feed.xml
-  - title: 测试
-    url: /测试
+    url: category/jlp
+  - title: 其  他
+    url: category/qt
+  - title: 标签分类
+    url: tags
+  #- title: 联系
+  #  url: /contact
+  #- title: 关于
+  #  url: /about
+  #- title: SSR地图
+  #  url: feed.xml
 email: jaygny@qq.com
 disqus_username: disqus_username
