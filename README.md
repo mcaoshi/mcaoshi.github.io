@@ -130,4 +130,3 @@ $texts: #333333;
 
 [Thiago Rossener](https://rossener.com/)
 
-Do you like my work? Buy me a coffee!
