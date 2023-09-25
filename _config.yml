@@ -6,7 +6,7 @@ tags:
   - 对酒当歌分享
   - 对酒当歌影视资源分享
   - 对酒当歌阿里云盘资源分享
-show_hero: false
+show_hero: true
 menu:
   - title: 首  页
     url: index.html
@@ -48,7 +48,7 @@ formspree_form_id: formspree_form_id
 
 # 社交媒体设置
 # 如果不需要，请将其删除
-github_username: aiyobudui 
+# github_username: aiyobudui 
 # facebook_username: facebook_username
 # twitter_username: twitter_username
 # instagram_username: instagram_username
