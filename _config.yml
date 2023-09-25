@@ -1,14 +1,12 @@
-# Site Settings
+# 站点设置
 name: 对酒当歌分享
 title: 对酒当歌分享
 description: 用阿里云盘在家就能轻松搭建家庭影院,看美剧,日韩剧,电影,动画,电影,动漫,学习资料等非常轻松，资源一键保存，我这里分享了一些自己整理收集的优质网盘资源，欢迎您的访问。
-timezone: GMT+8
 tags:
   - 对酒当歌分享
   - 对酒当歌影视资源分享
   - 对酒当歌阿里云盘资源分享
 show_hero: true
-paginate: 18
 menu:
   - title: 首  页
     url: index.html
@@ -46,7 +44,7 @@ email: jaygny@qq.com
 # disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
-#formspree_form_id: formspree_form_id
+formspree_form_id: formspree_form_id
 
 # 社交媒体设置
 # 如果不需要，请将其删除
