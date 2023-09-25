@@ -29,7 +29,7 @@ contact:
     email: 您的电子邮件
     message: 您的留言
   errors:
-    locale: en
+    locale: zh-cn
     empty_name: 插入您的昵称
     empty_email: 插入您的电子邮件
     invalid_email: 电子邮件无效
