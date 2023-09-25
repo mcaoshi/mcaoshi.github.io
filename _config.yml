@@ -6,7 +6,9 @@ tags:
   - 对酒当歌分享
   - 对酒当歌影视资源分享
   - 对酒当歌阿里云盘资源分享
+#主页中 显示/隐藏它,它接受值true 和 false
 show_hero: true
+#将分页添加到主页，将一个整数设置为 0 >。
 paginate: 24
 menu:
   - title: 首  页
