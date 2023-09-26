@@ -1,39 +1,39 @@
 texts:
-  new_post: NEW POST
-  seel_also: 为你推荐
-  search: 搜索
-  share: 分享
-  comments: 评论
+  new_post: "NEW POST"
+  seel_also: "为你推荐"
+  search: "搜索"
+  share: "分享"
+  comments: "评论"
 button:
-  read_now: 立即阅读
-  share_on_twitter: 在Twitter上分享
-  share_on_facebook: 在facebook上分享
+  read_now: "立即阅读"
+  share_on_twitter: "在Twitter上分享"
+  share_on_facebook: "在facebook上分享"
 pagination:
-  page: 页面
-  of: of
-  next_page: 下一页
-  next_post: 上一页
+  page: "页面"
+  of: "of"
+  next_page: "下一页"
+  next_post: "上一页"
 recommendation:
-  text: 发送
-  back_btn: 返回顶部
+  text: "发送"
+  back_btn: "返回顶部"
 error_404:
-  title: 标题
-  message: 消息
-  image_alt: 备用image
+  title: "标题"
+  message: "消息"
+  image_alt: "备用image"
 contact:
-  title: 标题
-  subject: 电子邮件主题标题
-  submit_btn: 提交
+  title: "标题"
+  subject: "电子邮件主题标题"
+  submit_btn: "提交"
   placeholders:
-    name: 您的昵称
-    email: 您的电子邮件
-    message: 您的留言
+    name: "您的昵称"
+    email: "您的电子邮件"
+    message: "您的留言"
   errors:
-    locale: zh-cn
-    empty_name: 插入您的昵称
-    empty_email: 插入您的电子邮件
-    invalid_email: 电子邮件无效
-    empty_message: 没有留言内容
+    locale: "zh-cN"
+    empty_name: "插入您的昵称"
+    empty_email: "插入您的电子邮件"
+    invalid_email: "电子邮件无效"
+    empty_message: "没有留言内容"
   after_send:
-    title: 消息已发送!
-    message: 谢谢你给我发消息！我会尽快回答!
+    title: "消息已发送!"
+    message: "谢谢你给我发消息！我会尽快回答!"
