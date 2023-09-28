@@ -7,7 +7,7 @@ permalink: /OK/
 description: 一些描述.
 ---
 
-<center>**阿里云盘天猫官方授权**</center>
+<center><b>阿里云盘天猫官方授权</b></center>
 
 ---
 
@@ -15,7 +15,7 @@ description: 一些描述.
 
 ---
 
-**购买享优惠，官方送优惠券**
+<center><b>购买享优惠，官方送优惠券</b></center>
 
 ---
 
