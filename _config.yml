@@ -36,7 +36,7 @@ menu:
   - title: 标签分类
     url: tags
   - title: 阿里云盘会员天猫官方优惠 手机号直充
-    url: pages/ok
+    url: ok
   #- title: 联系
   #  url: /contact
   #- title: 关于
