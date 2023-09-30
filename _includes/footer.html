@@ -1,58 +1,70 @@
 <footer>
-  <!-- 页尾隐藏 -->
-    <p>
-      {% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}" title="Github">
-          <svg><use xlink:href="#icon-github"></use></svg>
-        </a>
-      {% endif %}
-      {% if site.facebook_username %}
-        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
-          <svg><use xlink:href="#icon-facebook"></use></svg>
-        </a>
-      {% endif %}
-      {% if site.twitter_username %}
-        <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
-          <svg><use xlink:href="#icon-twitter"></use></svg>
-        </a>
-      {% endif %}
-      {% if site.medium_username %}
-        <a href="https://medium.com/@{{ site.medium_username }}" title="Medium">
-          <svg><use xlink:href="#icon-medium"></use></svg>
-        </a>
-      {% endif %}
-      {% if site.instagram_username %}
-        <a href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
-          <svg><use xlink:href="#icon-instagram"></use></svg>
-        </a>
-      {% endif %}
-      {% if site.linkedin_username %}
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
-          <svg><use xlink:href="#icon-linkedin"></use></svg>
-        </a>
-      {% endif %}
-    </p>
-  
-    {% include links.html %}
 
+  <p>
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" title="Github">
+      <svg>
+        <use xlink:href="#icon-github"></use>
+      </svg>
+    </a>
+    {% endif %}
+    {% if site.facebook_username %}
+    <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+      <svg>
+        <use xlink:href="#icon-facebook"></use>
+      </svg>
+    </a>
+    {% endif %}
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+      <svg>
+        <use xlink:href="#icon-twitter"></use>
+      </svg>
+    </a>
+    {% endif %}
+    {% if site.medium_username %}
+    <a href="https://medium.com/@{{ site.medium_username }}" title="Medium">
+      <svg>
+        <use xlink:href="#icon-medium"></use>
+      </svg>
+    </a>
+    {% endif %}
+    {% if site.instagram_username %}
+    <a href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
+      <svg>
+        <use xlink:href="#icon-instagram"></use>
+      </svg>
+    </a>
+    {% endif %}
+    {% if site.linkedin_username %}
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
+      <svg>
+        <use xlink:href="#icon-linkedin"></use>
+      </svg>
+    </a>
+    {% endif %}
+  </p>
+  <!-- 页尾隐藏导航 
+    {% include links.html %}
+  -->
   <p>
     <span>免责声明:</span><svg class="love">
       <use xlink:href="#icon-heart"></use>
-    </svg>  本站只提供WEB页面服务,不存储,不制作,本站内所有链接都指向网盘,其版权归版权方所有,不承担任何由于内容所引起的争议和法律责任！
+    </svg> 本站只提供WEB页面服务,不存储,不制作,本站内所有链接都指向网盘,其版权归版权方所有,不承担任何由于内容所引起的争议和法律责任！
     若本站收录内容侵犯了您的权益,请联系邮箱 jaygny@qq.com 会第一时间处理.
-    
+
 
     <!--百度统计-->
     <script>
       var _hmt = _hmt || [];
-      (function() {
+      (function () {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?ef955ec6ab6a5404f3ce0db007c1d348";
-        var s = document.getElementsByTagName("script")[0]; 
+        var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
-      </script>
-      
+    </script>
+
     <script>
       var _hmt = _hmt || [];
       (function () {
