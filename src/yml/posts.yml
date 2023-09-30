@@ -1,4 +1,5 @@
 show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: false
-two_columns_layout: false
+#在一列和两列之间切换帖子布局。它接受值或 true  false
+two_columns_layout: true

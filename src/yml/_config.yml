@@ -1,14 +1,14 @@
-# Site Settings
+# 网站设置
 #=include site.yml
 
-# Social Media Settings
-# Remove the item if you don't need it
+# 社交媒体设置
+# 如果不需要，请将其删除
 #=include social.yml
 
-# Posts Settings
+# 帖子设置
 #=include posts.yml
 
-# Advanced Settings
+# 高级设置
 #=include advanced.yml
 
 # Build settings

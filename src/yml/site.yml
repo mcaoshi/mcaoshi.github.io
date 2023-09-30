@@ -7,7 +7,7 @@ tags:
   - 对酒当歌影视资源分享
   - 对酒当歌阿里云盘资源分享
 show_hero: true
-paginate: 24
+paginate: 
 menu:
   - title: 首  页
     url: index.html

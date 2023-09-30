@@ -60,20 +60,20 @@
 
         </section>
 
-        <!-- Add time bar only for pages without pagination -->
+        <!-- 仅为没有分页的页面添加时间栏 -->
         {% if paginator.activated == nil and site.show_time_bar == true %}
             {% include time-bar.html %}
             {% include recommendation.html %}
         {% endif %}
 
-        <!-- Show modal if the post is the last one -->
+        <!-- 如果帖子是最后一个帖子，则显示模态 -->
         {% if paginator.is_last and site.show_modal_on_finish_post %}
-            {% include modal.html title="You made it!" subtitle="Why don't you try another?" %}
+            {% include modal.html title="你成功了！" subtitle="Why don't you try another?" %}
         {% endif %}
 
-        <!-- Show modal before user leaves the page -->
+        <!-- 在用户离开页面之前显示模式 -->
         {% if site.show_modal_on_exit %}
-            {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
+            {% include modal.html title="还不走！" subtitle="您可能还喜欢..." closed=true showOnExit=true %}
         {% endif %}
 
         {% include subscription.html %}
