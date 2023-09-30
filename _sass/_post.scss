@@ -389,7 +389,7 @@
   h2 {
     font-size: rem(24px);
     font-weight: bold;
-    border-bottom: 1.3px solid $lightGray;
+    border-bottom: 1.3px solid $lightGray #282a36;
     padding: rem(10px) 0;
     @include media(">=sm") {
       padding: rem(48px) 0 rem(20px);
@@ -403,7 +403,7 @@
 
     li {
       margin-top:  45px;
-      border-bottom:1px solid #f3eeee;
+      border-bottom:1px solid #f3eeee $lightGray;
       img {
         display: block;
         max-width: 100%;
