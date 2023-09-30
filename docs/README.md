@@ -1,16 +1,16 @@
 # Home
 
-Welcome to the *Jekflix Template* docs!
+欢迎来到*Jekflix模板*文档！
 
-Here you will find everything you need to get your website up and running with the template:
+在这里，您将找到使用模板启动和运行网站所需的一切:
 
 - How to setup your local [environment](setup.md#environment) and [install](setup.md#installing-template) the template
 - How to [customize](settings.md#settings) your website, changing theme colors, layout, titles, etc.
 - How to [deploy](netlify-cms.md#deploy-with-netlify) your website using Netlify and edit content using [Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
 
-*and the list goes on...*
+*名单还在继续...*
 
-Navigate through the menu below as you wish, and most of all, have fun! 😄
+根据需要浏览下面的菜单，最重要的是，玩得开心！😄
 
 ## Summary
 
@@ -33,6 +33,3 @@ Navigate through the menu below as you wish, and most of all, have fun! 😄
 * [Netlify CMS](netlify-cms.md#netlify-cms)
   * [Deploy with Netlify](netlify-cms.md#deploy-with-netlify)
   * [Integrate with Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
-
-
-

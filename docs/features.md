@@ -32,59 +32,59 @@ _Jekflix_ comes with features to help you create/edit/share content and provide 
 
 ![Search Box Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566426001/search-screenshot_sc5edu.jpg)
 
-## Estimated Reading Time
+## 预计阅读时间
 
 Every post shows an estimated reading time above its title, the minutes are calculated based on an average reader speed.
 
 ![Estimated Reading Time Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566426097/minutes-to-read-screenshot_akvu69.jpg)
 
-## Reading Progress Bar
+## 阅读进度条
 
 *(Optional)*
 
-It also shows a reading progress bar based on the reading time and the scroll position in the page.
+它还根据阅读时间和页面中的滚动位置显示阅读进度条.
 
 ![Reading Progress Bar Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566425470/progress-bar-screenshot_gem7xb.jpg)
 
-You can show/hide the time bar, see the [docs](settings.md#show_time_bar).
+您可以显示/隐藏时间栏，请参阅 [docs](settings.md#show_time_bar).
 
 ## "New Post" tag
 
-For posts released up to 7 days before the current date, a tag where reads "New Post" is attached to them in the home page.
+对于在当前日期前 7 天内发布的帖子，系统会在主页中附加一个“新帖子”标签.
 
 ![New Post Tag Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566425920/new-post-tag-screenshot_nyuycr.jpg)
 
-## Load images on demand
+## 按需加载图像
 
-To improve performance in the home page, only the posts above the fold are loaded initially. The next posts are loaded when scrolling down as needed.
+为了提高主页的性能，最初仅加载首屏以上的帖子。根据需要向下滚动时加载下一篇文章.
 
 ![Loading Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566426573/loading-screenshot_akchmx.jpg)
 
-## Push Menu
+## 推送菜单
 
-The template menu is hidden by default and pushes the content to the right when open.
+模板菜单默认隐藏，打开时将内容向右推送.
 
 ![Menu Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566426941/menu-screenshot_qsoz1z.jpg)
 
-## SVG icons
+## SVG 图标
 
-All icons used in the template are SVGs, providing a nice look for every resolution.
+模板中使用的所有图标都是 SVG，为每种分辨率提供漂亮的外观.
 
 ![Template Icons](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566427250/icons-screenshot_uhk80e.jpg)
 
-## Shell script to create posts
+## 用于创建帖子的外壳脚本
 
-A script named [initpost.sh](https://github.com/thiagorossener/jekflix-template/blob/master/initpost.sh) is provided to make it easier to create posts by command line.
+名为 [initpost.sh](https://github.com/thiagorossener/jekflix-template/blob/master/initpost.sh) 提供是为了更容易通过命令行创建帖子.
 
-In the project directory, just run:
+在项目目录中，只需运行:
 
 ```
 $ ./initpost.sh -c "New post title"
 ```
 
-## Tags page
+## 标签页面
 
-All tags are gathered in a single page where visitors can find the blog posts separate by its tags.
+所有标签都收集在一个页面中，访问者可以在其中找到由其标签分隔的博客文章。
 
 ![Tags Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566430436/tags-page-screenshot_eeyyt8.jpg)
 
@@ -92,15 +92,15 @@ Check it out [here](https://jekflix.rossener.com/tags/).
 
 ## About page
 
-An About page is provided by default, you can delete it at any moment.
+默认情况下提供关于页面，您可以随时将其删除.
 
 ![About Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566430703/about-page-screenshot_rgchze.jpg)
 
 Check it out [here](https://jekflix.rossener.com/about/).
 
-## Contact page
+## 联系页面
 
-A contact form created with Vue is present in the template, so you don't have to do it from scratch.
+模板中存在使用 Vue 创建的联系表单，因此您不必从头开始.
 
 ![Contact Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476192/contact-page-screenshot_efux2y.jpg)
 
@@ -108,7 +108,7 @@ Check it out [here](https://jekflix.rossener.com/contact/).
 
 ## 404 error page
 
-The template also handles 404 errors already.
+该模板还已经处理了 404 错误.
 
 ![404 Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476323/404-page-screenshot_qiieyi.jpg)
 
@@ -116,43 +116,43 @@ Check it out [here](https://jekflix.rossener.com/404/).
 
 ## Feed RSS
 
-A feed file is automatically generated on every build.
+每次生成时都会自动生成一个源文件.
 
-Check it out a sample [here](https://jekflix.rossener.com/feed.xml).
+查看示例 [here](https://jekflix.rossener.com/feed.xml).
 
 ## Disqus
 
 *(Optional)*
 
-Jekflix Template implements the Disqus plugin, allowing visitors to comment in posts.
+Jekflix模板实现了Disqus插件，允许访问者在帖子中发表评论.
 
 See the [docs](settings.md#disqus_username) to configure it.
 
-## Featured post
+##精选文章
 
 *(Optional)*
 
-In this 2.0 version, a hero lockup got added to the home page, like Netflix does with movies.
+在这个 2.0 版本中，英雄锁定被添加到主页，就像 Netflix 对电影所做的那样.
 
-To turn on/off this feature, see the [docs](settings.md#show_hero).
+要打开/关闭此功能，请参阅 [docs](settings.md#show_hero).
 
 ![Page with hero screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566477681/page-with-hero-screenshot_ixyjzp.jpg)
 
-## Home page pagination
+## 主页分页
 
 *(Optional)*
 
-There are two different options to show the posts in the home page, the first one is loading new posts when scrolling down and the second one is adding pagination.
+在主页中显示帖子有两种不同的选项，第一个是在向下滚动时加载新帖子，第二个是添加分页.
 
-To add pagination, see the [docs](settings.md#paginate).
+要添加分页，请参阅 [docs](settings.md#paginate).
 
 ## Posts sidebar
 
 *(Optional)*
 
-As many people has asked for, Jekflix Template 2.0 adds an optional sidebar to posts.
+正如许多人所要求的，Jekflix模板2.0为帖子增加了一个可选的侧边栏。
 
-To show/hide the sidebar, see the [docs](settings.md#two_columns_layout).
+要显示/隐藏边栏，请参阅 [docs](settings.md#two_columns_layout).
 
 ![Post with two columns screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476793/two-columns-screenshot_phumrl.jpg)
 
@@ -160,9 +160,9 @@ To show/hide the sidebar, see the [docs](settings.md#two_columns_layout).
 
 *(Optional)*
 
-You can also boost your advertising views by paginating posts.
+您还可以通过分页帖子来提高广告浏览量。
 
-To break your posts into different pages, see the [docs](post.md#paginate).
+要将帖子分成不同的页面，请参阅 [docs](post.md#paginate).
 
 ![Paginated Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566430021/paginated-page-screenshot_zx4xjn.jpg)
 
@@ -170,7 +170,7 @@ To break your posts into different pages, see the [docs](post.md#paginate).
 
 *(Optional)*
 
-To keep visitors interested in your content, you can show them some posts recommendations before they leave the page or/and they reach the post end.
+为了让访问者对您的内容感兴趣，您可以在他们离开页面或/和他们到达帖子末尾之前向他们展示一些帖子推荐.
 
 See the [docs](settings.md#show_modal_on_exit) for more information.
 
@@ -178,11 +178,11 @@ See the [docs](settings.md#show_modal_on_exit) for more information.
 
 ## Post recommendation
 
-By default, all posts show a post recommendation when visitor reaches the end of the article, like:
+默认情况下，当访问者到达文章末尾时，所有帖子都会显示帖子推荐，例如:
 
 ![Recommendation Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478555/recommendation-screenshot_wzhchs.jpg)
 
-This feature is supposed to be similar to the Netflix recommendation when you finish a movie or serie episode.
+Thi的功能应该类似于您完成电影或系列剧集时的 Netflix 推荐.
 
 ## Math Expressions
 
@@ -199,13 +199,13 @@ For example, `$\sum_{i=1}{10} = 55$` will be rendered as <img src="https://res.c
 
 ## Netlify CMS ready
 
-The newest addition to the *Jekflix Template 2.0.0* is the Netlify CMS integration.
+*Jekflix模板2.0.0*的最新成员是Netlify CMS集成。
 
-With Netlify CMS you will be able to create/edit posts using an editor, access a workflow panel and change every aspect of your blog with some clicks.
+使用Netlify CMS，您将能够使用编辑器创建/编辑帖子，访问工作流程面板并通过单击更改博客的各个方面。
 
-To use the Netlify CMS, you need to go through some steps first. See the [docs](netlify-cms.md#netlify-cms) for more info.
+要使用Netlify CMS，您需要先完成一些步骤。请参阅的 [docs](netlify-cms.md#netlify-cms) for more info.
 
-Here are some screenshots:
+以下是一些屏幕截图:
 
 ![Netlify CMS post list screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-1_a0qezm.jpg)
 
