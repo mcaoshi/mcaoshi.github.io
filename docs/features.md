@@ -1,6 +1,6 @@
 # Features
 
-_Jekflix_ comes with features to help you create/edit/share content and provide a nice experience for your visitors.
+_Jekflix_ 具有帮助您创建/编辑/共享内容并为访问者提供良好体验的功能.
 
 - [在线搜索](docs/features.md#live-search)
 - [预设阅读时间](docs/features.md#estimated-reading-time)
@@ -34,7 +34,7 @@ _Jekflix_ comes with features to help you create/edit/share content and provide 
 
 ## 预计阅读时间
 
-Every post shows an estimated reading time above its title, the minutes are calculated based on an average reader speed.
+每个帖子在其标题上方显示估计的阅读时间，分钟是根据平均读者速度计算的。
 
 ![Estimated Reading Time Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566426097/minutes-to-read-screenshot_akvu69.jpg)
 
@@ -112,13 +112,13 @@ Check it out [here](https://jekflix.rossener.com/contact/).
 
 ![404 Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476323/404-page-screenshot_qiieyi.jpg)
 
-Check it out [here](https://jekflix.rossener.com/404/).
+Check it out [这里](https://jekflix.rossener.com/404/).
 
 ## Feed RSS
 
 每次生成时都会自动生成一个源文件.
 
-查看示例 [here](https://jekflix.rossener.com/feed.xml).
+查看示例 [这里](https://jekflix.rossener.com/feed.xml).
 
 ## Disqus
 
@@ -126,7 +126,7 @@ Check it out [here](https://jekflix.rossener.com/404/).
 
 Jekflix模板实现了Disqus插件，允许访问者在帖子中发表评论.
 
-See the [docs](settings.md#disqus_username) to configure it.
+请参阅的 [文档](settings.md#disqus_username) 以对其进行配置。
 
 ##精选文章
 
@@ -134,7 +134,7 @@ See the [docs](settings.md#disqus_username) to configure it.
 
 在这个 2.0 版本中，英雄锁定被添加到主页，就像 Netflix 对电影所做的那样.
 
-要打开/关闭此功能，请参阅 [docs](settings.md#show_hero).
+要打开/关闭此功能，请参阅 [文档](settings.md#show_hero).
 
 ![Page with hero screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566477681/page-with-hero-screenshot_ixyjzp.jpg)
 
@@ -146,7 +146,7 @@ See the [docs](settings.md#disqus_username) to configure it.
 
 要添加分页，请参阅 [docs](settings.md#paginate).
 
-## Posts sidebar
+## 帖子侧边栏
 
 *(Optional)*
 
@@ -156,7 +156,7 @@ See the [docs](settings.md#disqus_username) to configure it.
 
 ![Post with two columns screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566476793/two-columns-screenshot_phumrl.jpg)
 
-## Paginated posts
+## 分页帖子
 
 *(Optional)*
 
@@ -166,7 +166,7 @@ See the [docs](settings.md#disqus_username) to configure it.
 
 ![Paginated Page Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566430021/paginated-page-screenshot_zx4xjn.jpg)
 
-## "Before you go" modal
+## “在你走之前”模式
 
 *(Optional)*
 
@@ -176,7 +176,7 @@ See the [docs](settings.md#show_modal_on_exit) for more information.
 
 ![Modal screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
 
-## Post recommendation
+## 帖子推荐
 
 默认情况下，当访问者到达文章末尾时，所有帖子都会显示帖子推荐，例如:
 
@@ -184,13 +184,13 @@ See the [docs](settings.md#show_modal_on_exit) for more information.
 
 Thi的功能应该类似于您完成电影或系列剧集时的 Netflix 推荐.
 
-## Math Expressions
+## 数学表达式
 
 *(Optional)*
 
-*Jekflix Template 3.1.0* now supports math expressions through [MathJax](https://www.mathjax.org/) library, thanks to **[@XieGuochao](https://github.com/XieGuochao)**.
+*Jekflix 模板 3.1.0* 现在通过以下方式支持数学表达式 [MathJax](https://www.mathjax.org/) library, thanks to **[@XieGuochao](https://github.com/XieGuochao)**.
 
-You only need 2 steps:
+您只需要 2 个步骤:
 
 1. Set `math: true` for a post.
 2. Adopt the _MathJax_'s grammar for $\LaTeX$.

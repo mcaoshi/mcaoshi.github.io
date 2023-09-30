@@ -4,9 +4,9 @@
 
 在这里，您将找到使用模板启动和运行网站所需的一切:
 
-- How to setup your local [environment](setup.md#environment) and [install](setup.md#installing-template) the template
-- How to [customize](settings.md#settings) your website, changing theme colors, layout, titles, etc.
-- How to [deploy](netlify-cms.md#deploy-with-netlify) your website using Netlify and edit content using [Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
+- 如何设置本地 [environment](setup.md#environment) 和 [install](setup.md#installing-template) 模板
+- 如何 [customize](settings.md#settings) 您的网站，更改主题颜色，布局，标题等。
+- 如何 [deploy](netlify-cms.md#deploy-with-netlify)您的网站使用 Netlify 并使用 [Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
 
 *名单还在继续...*
 

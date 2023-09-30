@@ -44,7 +44,7 @@ Type: *string*
 
 ```yaml
 # site.yml
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+description: Jekflix 是 Jekyll 的模板，灵感来自 Netflix，由 Thiago Rossener 制作.
 ```
 
 #### `标签`
