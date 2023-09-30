@@ -402,6 +402,7 @@
     list-style: none;
 
     li {
+      margin-top:  46px;
       img {
         display: block;
         max-width: 100%;
@@ -415,7 +416,7 @@
         text-decoration: none;
         transition: all 0.3s;
         text-align: center;
-        margin-top:  46px;
+        
         &:hover {
           color: rgba(0, 0, 0, 0.5);
           img {
