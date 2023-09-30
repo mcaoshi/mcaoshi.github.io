@@ -1,39 +1,39 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+此项目的所有重要更改都将记录在此文件中。
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+格式基于 [保留更新日志]（https://keepachangelog.com/en/1.0.0/），
+并且该项目遵循[语义版本控制]（https://semver.org/spec/v2.0.0.html）。
 
 ## [3.1.2] - 2022-09-27
 
 ### Changed
 
-- Moved documentation from wiki to repo
-- Bumped up NPM dependencies
-- Created this `CHANGELOG.md` file
-- Cleaned up the `README.md` file
+- 将文档从 wiki 移动到存储库
+- 增加了 NPM 依赖项
+- 创建了这个“CHANGELOG.md”文件
+- 清理了“README.md”文件
 
 ## [3.1.1] - 2021-04-15
 
 ### Changed
 
-- Added `formspree_form_id` config
-- Bumped up dependencies
+- 添加了“formspree_form_id”配置
+- 增加依赖关系
 
 ### Fixed
 
-- Fixed minor bugs
+- 修复了一些小错误
 
 ## [3.1.0] - 2020-04-02
 
 ### Added
 
-- Added MathJax library to render math expressions, thanks to [@XieGuochao](https://github.com/XieGuochao)
+- 添加了 MathJax 库来渲染数学表达式，这要归功于 [@XieGuochao](https://github.com/XieGuochao)
 
 ### Changed
 
-- Updated Google Analytics script, thanks to [@JHLeeeMe](https://github.com/JHLeeeMe)
+- 更新了谷歌分析脚本，感谢 [@JHLeeeMe](https://github.com/JHLeeeMe)
 
 ### Fixed
 
@@ -41,71 +41,70 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.0.2] - 2020-02-05
 
-### Fixed
+### 固定
 
-- Added assets folder
+- 添加了资产文件夹
 
 ## [3.0.1] - 2020-02-05
 
-### Fixed
+### 已修复
 
-- Fixed post SVG icons
+- 修复了帖子SVG图标
 
 ## [3.0.0] - 2020-02-05
 
-### Added
+### 已添加
 
-- Created theme `gem`
-- Enabled text translations
-- Added heading anchor links
+- 创建主题“宝石”
+- 启用文本翻译
+- 添加了标题锚链接
 
-### Changed
+### 已更改
 
-- Changed code highlight colors
-- Changed from Stylus to SASS
+- 更改了代码突出显示颜色
+- 从手写笔改为 SASS
 
 ## [2.0.1] - 2020-01-30
 
-### Changed
+### 已更改
 
-- Optimized to support disabled JS
+- 优化以支持禁用的 JS
 
-### Fixed
+### 已修复
 
-- Fixed bugs
+- 修复了错误
 
 ## [2.0.0] - 2019-08-24
 
-### Added
+### 已添加
 
-- Added optional [sidebar](docs/features.md#posts-sidebar)
-- Added optional [Featured post](docs/features.md#featured-post)
-- Added optional ["Before you go" modal](docs/features.md#before-you-go-modal)
-- Added optional [post pagination](docs/features.md#paginated-posts)
-- Added [post recommendation](docs/features.md#post-recommendation)
-- Added meta keywords to improve SEO
-- Added JSON-LD to improve SEO
-- Set up [Netlify CMS](docs/features.md#netlify-cms-ready)
+- 添加了可选的[侧边栏]（docs/features.md#posts-sidebar）
+- 添加了可选的[精选帖子]（docs/features.md#featured-post）
+- 添加了可选的[“Before you go”模态]（docs/features.md#before-you-go-modal）
+- 添加了可选的[帖子分页]（docs/features.md#paginated-posts）
+- 新增[帖子推荐]（docs/features.md#发布推荐）
+- 添加了元关键字以改善SEO
+- 添加了 JSON-LD 以改善搜索引擎优化
+- 设置 [Netlify CMS]（docs/features.md#netlify-cms-ready）
 
-### Changed
-
-- Changed pagination to be [optional](docs/features.md#home-page-pagination)
-- Improved [Tags page](docs/features.md#tags-page)
-- Cleaned up and improved [Front Matter properties](docs/post.md#front-matter-properties)
-- Improved customization settings
-- Minor design updates
+### 已更改
+- 将分页更改为[可选]（docs/features.md#home-page-pagination）
+- 改进了[标签页面]（docs/features.md#标签页面）
+- 清理并改进了[前言属性]（docs/post.md#前言属性）
+- 改进了自定义设置
+- 小的设计更新
 
 ## [1.0.1] - 2019-08-16
 
-### Changed
+### 已更改
 
-- Upgraded to Gulp 4
+- 升级至古尔普4
 
-### Fixed
+### 已修复
 
-- Fixed bugs
+- 修复了错误
 
 ## [1.0.0] - 2019-08-16
 
-- Initial release
+- 初始版本
 

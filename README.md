@@ -129,3 +129,7 @@ $texts: #333333;
 ## 作者
 
 [Thiago Rossener](https://rossener.com/)
+
+## 部署状态标记
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50f28f87-f311-4154-ba6e-539281756cc5/deploy-status)](https://app.netlify.com/sites/hao/deploys)
