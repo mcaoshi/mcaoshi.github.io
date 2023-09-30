@@ -12,7 +12,7 @@ footer {
   @include center(rem(800px));
   border-top: 1px solid darken($accentDark, 10%);
   background: $accentDark;
-  padding: rem(0px) rem(32px);
+  padding: rem(16px) rem(32px);
   margin-top: rem(8px);
   margin-bottom: rem(0px);
   @include mainFont(300);
@@ -24,7 +24,7 @@ footer {
   p {
     text-decoration: none;
     color: $primaryDark;
-    font-size: rem(13px);
+    font-size: rem(13.6px);
     line-height: rem(25px);
   }
 
