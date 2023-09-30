@@ -12,9 +12,9 @@ footer {
   @include center(rem(800px));
   border-top: 1px solid darken($accentDark, 10%);
   background: $accentDark;
-  padding: rem(20px) rem(25px);
-  margin-top: rem(50px);
-  margin-bottom: rem(120px);
+  padding: rem(1px) rem(1px);
+  margin-top: rem(10px);
+  margin-bottom: rem(0px);
   @include mainFont(300);
 
   @include media(">=sm") {
