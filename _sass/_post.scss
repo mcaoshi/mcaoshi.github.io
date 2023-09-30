@@ -407,6 +407,7 @@
         max-width: 100%;
         height: auto;
         transition: all 0.2s ease-in-out;
+        margin-top:  27px;
       }
 
       a {
@@ -422,9 +423,6 @@
             filter: grayscale(100%);
           }
         }
-      }
-      h3 {
-        padding-bottom: 27px;
       }
     }
   }
