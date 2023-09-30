@@ -85,18 +85,6 @@
 
     {% include subscription.html %}
     {% include share.html %}
-    <div id="gitalk-container"></div>
-    var gitalk = new Gitalk({
-        clientID: '791f86c8feefd00077d1',
-        clientSecret: '676e6c79dcf74e026a9394b9f23f2d299bf61754',
-        repo: 'aiyobudui.github.io',
-        owner: 'aiyobudui',
-        admin: ['aiyobudui'],
-        id: location.pathname,      
-        distractionFreeMode: false 
-      })
-      
-      gitalk.render('gitalk-container')
     {% include comments.html %}
     {% include author.html %}
     {% include footer.html %}
