@@ -7,13 +7,7 @@ permalink: /OK/
 description: 一些描述.
 ---
 
-<center><b>阿里云盘天猫官方授权</b></center>
-
-
----
-
 <img src="/assets/img/ok/top.webp" alt="阿里云盘会员直充" >
-
 
 ---
 
@@ -46,3 +40,5 @@ description: 一些描述.
 ---
 
 容量如何叠加：购买1个月会员，送1个月的8TB容量，在购买一个月.容量达到16TB。
+
+---
