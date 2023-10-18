@@ -71,7 +71,7 @@ two_columns_layout: true
 # 设置站点的子路径，例如 /blog
 baseurl: "" 
 url: "/" 
-google_analytics: UA-XXXXXXXX-X
+# google_analytics: UA-XXXXXXXX-X
 language: "zh-cn"
 categories_folder: category
 sent_message_url: /contact/message-sent/
