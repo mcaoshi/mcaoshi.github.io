@@ -28,11 +28,11 @@ menu:
     url: category/dyhj
   - title: 动画电影
     url: category/dhdy
-  - title: 纪 录 片
+  - title: 纪录片
     url: category/jlp
-  - title: 综    艺
+  - title: 综 艺
     url: category/zy  
-  - title: 其    他
+  - title: 其 他
     url: category/qt
   - title: 标签菜单
     url: tags
