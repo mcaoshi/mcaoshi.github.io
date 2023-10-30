@@ -14,25 +14,27 @@ menu:
     url: index.html
   - title: 国产剧
     url: category/gcj
-  - title: 日韩剧
-    url: category/rhj
   - title: 欧美剧
     url: category/omj
-  - title: 热门电影
-    url: category/rmdy/  
-  - title: 电影合集
-    url: category/dyhj
-  - title: 动画电影
-    url: category/dhdy
+  - title: 日韩剧
+    url: category/rhj
   - title: 动画剧集
     url: category/dhjj
   - title: 儿童动画
     url: category/etdh
-  - title: 纪录片
+  - title: 热门电影
+    url: category/rmdy  
+  - title: 电影合集
+    url: category/dyhj
+  - title: 动画电影
+    url: category/dhdy
+  - title: 纪 录 片
     url: category/jlp
-  - title: 其  他
+  - title: 综    艺
+    url: category/zy  
+  - title: 其    他
     url: category/qt
-  - title: 标签分类
+  - title: 标签菜单
     url: tags
   #- title: 联系
   #  url: /contact
