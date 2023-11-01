@@ -31,7 +31,9 @@ menu:
   - title: 纪录片
     url: category/jlp
   - title: 综 艺
-    url: category/zy  
+    url: category/zy
+  - title: 书 籍
+    url: category/shu
   - title: 其 他
     url: category/qt
   - title: 标签菜单
