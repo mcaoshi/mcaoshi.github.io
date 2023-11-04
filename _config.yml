@@ -18,8 +18,12 @@ menu:
     url: category/omj
   - title: 日韩剧
     url: category/rhj
-  - title: 动画剧集
-    url: category/dhjj
+  - title: 国产动漫
+    url: category/gcdm
+  - title: 日本动漫
+    url: category/rbdm
+  - title: 欧美动漫
+    url: category/omdm
   - title: 儿童动画
     url: category/etdh
   - title: 热门电影
