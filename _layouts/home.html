@@ -72,13 +72,14 @@ layout: main
                         {% include read-icon.html %}
                     </a>
                     <div class="box-info">
-                        <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                        <!--时间去掉<time datetime="{{ post.date | date_to_xmlschema }}" class="date">
                            {% include date.html date=post.date %}
-                        </time>
+                        </time>-->
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                             <h2 class="post-title">
                                 {{ post.title }}
                             </h2>
+                            <p>{{ post.subtitle }}</p>
                         </a>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                             <p class="description">{{ post.description }}</p>
