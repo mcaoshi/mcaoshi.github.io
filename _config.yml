@@ -8,7 +8,7 @@ tags:
 #主页中大图,它接受值true 和 false
 show_hero: false
 #将分页添加到主页，将一个整数设置为 0 >。
-paginate: 
+paginate: 36
 menu:
   - title: 首  页
     url: index.html
