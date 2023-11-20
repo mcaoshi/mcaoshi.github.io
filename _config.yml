@@ -12,6 +12,8 @@ paginate: 48
 menu:
   - title: 首  页
     url: index.html
+  - title: 低价购阿里云盘会员
+    url: /ok
   - title: 国产剧
     url: category/gcj
   - title: 欧美剧
