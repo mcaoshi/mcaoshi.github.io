@@ -11,39 +11,39 @@ show_hero: false
 paginate: 48
 menu:
   - title: 首  页
-    url: index.html
+    url: /
   - title: 国产剧
-    url: category/gcj
+    url: /category/gcj
   - title: 欧美剧
-    url: category/omj
+    url: /category/omj
   - title: 日韩剧
-    url: category/rhj
+    url: /category/rhj
   - title: 国产动漫
-    url: category/gcdm
+    url: /category/gcdm
   - title: 日本动漫
-    url: category/rbdm
+    url: /category/rbdm
   - title: 欧美动漫
-    url: category/omdm
+    url: /category/omdm
   - title: 儿童动画
-    url: category/etdh
+    url: /category/etdh
   - title: 热门电影
-    url: category/rmdy  
+    url: /category/rmdy  
   - title: 电影合集
-    url: category/dyhj
+    url: /category/dyhj
   - title: 动画电影
-    url: category/dhdy
+    url: /category/dhdy
   - title: 纪录片
-    url: category/jlp
+    url: /category/jlp
   - title: 综 艺
-    url: category/zy
+    url: /category/zy
   - title: 书 籍
-    url: category/shu
+    url: /category/shu
   - title: 其 他
-    url: category/qt
+    url: /category/qt
   - title: 标签菜单
-    url: tags
+    url: /tags/
   - title: 低价购阿里云盘会员
-    url: ok/
+    url: /ok/
   #- title: 联系
   #  url: /contact
   #- title: 关于
@@ -77,7 +77,7 @@ two_columns_layout: true
 # 高级设置
 # 设置站点的子路径，例如 /blog
 baseurl: "" 
-url: "/" 
+url: "" 
 # google_analytics: UA-XXXXXXXX-X
 language: "zh-cn"
 categories_folder: category
