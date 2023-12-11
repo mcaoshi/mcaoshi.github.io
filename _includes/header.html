@@ -25,6 +25,26 @@
     <a href="https://pd.qq.com/s/7conjnpx7" class="get-theme" role="button">QQ频道</a>
     <a href="https://www.kdocs.cn/l/cn6E0FFOoQt9" class="get-theme" role="button">资源文档</a>
 
+    <link rel="stylesheet" href="../assets/Aplayer/APlayer.min.css" th:href="@{/assets/Aplayer/APlayer.min.css}">
+<!--音乐-->
+<script src="../assets/Aplayer/APlayer.min.js" th:src="@{/lib/Aplayer/APlayer.min.js}"></script>
+<script src="../assets/Aplayer/Meting.min.js" th:src="@{/lib/Aplayer/Meting.min.js}"></script>
+ 
+<!--音乐插件-->
+    <meting-js
+            server="tencent"
+            type="playlist"
+            id="944505359"
+            fixed="true"
+            autoplay="false"
+            loop="all"
+            order="random"
+            preload="auto"
+            list-folded="ture"
+            list-max-height="500px"
+            lrc-type="0">
+    </meting-js>
+    
     <!--<a href="/ok" class="get-theme" role="button">领优惠劵购买会员更优惠</a>-->
 
     <!--注释掉右上角 Get this theme! button按钮
