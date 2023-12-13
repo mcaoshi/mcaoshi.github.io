@@ -1,6 +1,26 @@
 ---
 layout: main
 ---
+<link rel="stylesheet" href="../assets/Aplayer/APlayer.min.css" th:href="@{/assets/Aplayer/APlayer.min.css}">
+<!--音乐-->
+<script src="../assets/Aplayer/APlayer.min.js" th:src="@{/lib/Aplayer/APlayer.min.js}"></script>
+<script src="../assets/Aplayer/Meting.min.js" th:src="@{/lib/Aplayer/Meting.min.js}"></script>
+ 
+<!--音乐插件-->
+    <meting-js
+            server="netease"
+            type="playlist"
+            id="8925762343"
+            fixed="true"
+            autoplay="true"
+            loop="all"
+            order="random"
+            preload="auto"
+            list-folded="ture"
+            list-max-height="500px"
+            lrc-type="0">
+    </meting-js>
+
 
 {% if site.paginate %}
     {% assign posts = paginator.posts | where_exp:"post","post.is_generated != true" %}
