@@ -15,21 +15,13 @@
     </h3>
     <p class="desc">{{ author.bio }}</p>
     <p>
-     
+      <a href="https://link3.cc/hack" target="_blank"><img src="https://cdn-us.imgs.moe/2023/12/15/GZH_YRVpU55nJF.png"
+          alt="公众号" width="auto" height="auto"></a>
+      </a>
       {% if author.QQ_username %}
       <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=4R0We99OWxrmx6feGhN4SwlwK6Y769WK&authKey=0IWFSRZXU9ADtMqYkYOSU5REFjJNVWHg2ULWk08ed4dZxwOpzXwAuMH3GsEqhp7x&noverify=0&group_code={{ author.QQ_username }}"
         title="QQ群" target="_blank">
         QQ群
-        <!--
-        <svg>
-          <use xlink:href="https://www.haozy.top/assets/img/OK/alyp.ico"></use>
-        </svg>
-        -->
-      </a>
-      {% endif %}
-      {% if author.alyp_username %}
-      <a href="https://link3.cc/hack" target="_blank"><img
-          src="https://cdn-us.imgs.moe/2023/12/15/GZH_YRVpU55nJF.png" alt="公众号" width="auto" height="auto"></a>
       </a>
       {% endif %}
       {% if author.github_username %}
