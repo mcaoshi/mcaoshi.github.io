@@ -260,6 +260,16 @@
     @include media(">=sm") {
       font-size: rem(15.5px);
     }
+  }
+  b {
+    font-size: rem(15.5px);
+    line-height: 2.4;
+
+    @include media(">=sm") {
+      font-size: rem(15.5px);
+    }
+  }
+
   h6 {
       font-size: rem(14.1px);
       line-height: 2.4;
