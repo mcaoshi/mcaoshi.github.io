@@ -93,6 +93,7 @@
     font-size: rem(17px);
     margin: rem(10px) auto;
     line-height: 1.6;
+    padding-left: 0;
 
     @include media(">=sm") {
       font-size: rem(18px);
@@ -116,6 +117,7 @@
     letter-spacing: 0;
     color: darken($lightGray, 30%);
     margin: 0 auto;
+    padding-left: 0;
 
     @include media(">=sm") {
       font-size: rem(15px);
