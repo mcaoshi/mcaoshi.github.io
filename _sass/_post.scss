@@ -204,7 +204,7 @@
     padding-top: rem(0px);
     padding:0px 20px;
     border-left: 3px solid rgb(0, 153, 255);  
-    /*h标题下加下划线
+    /*标题下加下划线
     border-bottom: 2px solid rgb(95,95,95);               
     */
 
@@ -260,6 +260,14 @@
     @include media(">=sm") {
       font-size: rem(15.5px);
     }
+  b {
+      font-size: rem(15.5px);
+      line-height: 2.4;
+  
+      @include media(">=sm") {
+        font-size: rem(15.5px);
+      }
+       
   h6 {
       font-size: rem(14.1px);
       line-height: 2.4;
