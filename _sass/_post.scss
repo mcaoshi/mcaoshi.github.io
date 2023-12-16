@@ -85,7 +85,6 @@
     line-height: 1.4;
     margin: rem(5px) auto rem(10px);
     padding-top: 0;
-    padding-left: 0;
   }
   
   p.post-subtitle {
@@ -93,10 +92,10 @@
     font-size: rem(17px);
     margin: rem(10px) auto;
     line-height: 1.6;
-    padding-left: 0;
 
     @include media(">=sm") {
       font-size: rem(18px);
+      padding-left: 0;
     }
   }
 
@@ -117,10 +116,10 @@
     letter-spacing: 0;
     color: darken($lightGray, 30%);
     margin: 0 auto;
-    padding-left: 0;
 
     @include media(">=sm") {
       font-size: rem(15px);
+      padding-left: 0;
     }
 
     span,
@@ -192,6 +191,7 @@
     @include media(">=sm") {
       margin-top: 0;
       padding-top: rem(0px);
+      padding-left: 0;
 
     }
   }
