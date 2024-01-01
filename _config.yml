@@ -124,6 +124,11 @@ plugins:
 
 # 排除我的节点相关内容
 exclude: [
+  'docs/',
+  'vendor/',
+  'LICENSE',
+  'CHANGELOG.md',
+  'jekflix.gemspec',
   'package.json',
   'package-lock.json',
   'src',
