@@ -1,4 +1,4 @@
-source "https://gems-china.org"
+source "https://rubygems.org"
 
 gem "kramdown"
 gem "kramdown-parser-gfm"
