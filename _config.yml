@@ -1,10 +1,10 @@
 # 站点设置
-name: 对酒当歌分享
-title: 对酒当歌分享
+name: 世傲分享
+title: 世傲分享
 description: 用阿里云盘在家就能轻松搭建家庭影院,看美剧,日韩剧,电影,动画,电影,动漫,学习资料等非常轻松，资源一键保存，我这里分享了一些自己整理收集的优质网盘资源，欢迎您的访问。
 tags:
-  - 对酒当歌分享
-  - 对酒当歌影视资源分享
+  - 世傲分享
+  - 世傲资源分享
 #主页中大图,它接受值true 和 false
 show_hero: false
 #将分页添加到主页，将一个整数设置为 0 >。
@@ -51,7 +51,7 @@ menu:
   #  url: /about
   #- title: SSR地图
   #  url: feed.xml
-email: jaygny@qq.com
+email: mcaoshi@qq.com
 
 # See: https://disqus.com/
 # disqus_username: aiyobucuo
