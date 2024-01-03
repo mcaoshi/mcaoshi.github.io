@@ -14,6 +14,8 @@ menu:
     url: /
   - title: 国产剧
     url: /category/gcj
+  - title: 游戏
+    url: /category/yx
   - title: 欧美剧
     url: /category/omj
   - title: 日韩剧
@@ -42,8 +44,7 @@ menu:
     url: /category/qt
   - title: 标签菜单
     url: /tags/
-  - title: 低价购阿里云盘会员
-    url: /ok/
+
   #- title: 联系
   #  url: /contact
   #- title: 关于
